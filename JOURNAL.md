@@ -32,3 +32,29 @@
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA a corriger une erreur lorsqu'on alterne entre le mode clair et sombre.
+
+//
+
+**Prompt :** "the nav color should be Onyx when I scroll and dark mode is on"
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a corriger une erreur lorsqu'on alterne entre le mode clair et sombre.
+
+//
+
+**Prompt :** "When dark mode is turned on, make sure the text still is visible in "About me""
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a corriger une erreur lorsqu'on alterne entre le mode clair et sombre.
+
+//
+
+**Prompt :** "When I hover the "LET'S TALK" button. Don't forget to darken the border too."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a corriger une erreur de survol sur un bouton à l'accueil.
+
+
