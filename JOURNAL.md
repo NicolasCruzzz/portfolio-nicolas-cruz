@@ -57,4 +57,10 @@
   
 ﻿﻿**Résultat :** L'IA a corriger une erreur de survol sur un bouton à l'accueil.
 
+//
 
+**Prompt :** "Change the title "I shoot, film & tell stories." With I create media and I manager social media."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a changé le titre principal.
