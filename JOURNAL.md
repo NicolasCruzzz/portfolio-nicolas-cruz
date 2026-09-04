@@ -141,3 +141,14 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA a modifié ma description dans la description en dessous du titre principal.
+
+//
+
+**Prompt :** "remove the date and the location inside the "About me" image".
+
+Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a retiré une information inutile.
+
