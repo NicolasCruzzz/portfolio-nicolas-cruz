@@ -136,8 +136,6 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 
 **Prompt :** "change my healine description from this "Based in Laval, Québec, I specialize in photography, video production, editing, and social media management." to this: "Based in the Greater Montreal area, I offer specialized services in photography, video creation, editing, and social media management.".
 
-Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
-
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA a modifié ma description dans la description en dessous du titre principal.
@@ -145,8 +143,6 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 //
 
 **Prompt :** "remove the date and the location inside the "About me" image".
-
-Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
 
 ﻿﻿**Outil :** Figma make (Figma)
   
@@ -156,8 +152,6 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 
 **Prompt :** "Make sure the hamburger menu only appear on mobile not on desktop or ipad. move the lightmode/darkmode switch where the hamburger menu was once it has been deleted.".
 
-Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
-
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA a déplacer l'interrupteur du mode clair au mode sombre.
@@ -165,8 +159,6 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 //
 
 **Prompt :** "remove the mobile menu(the icon that open a drop down menu) when used in a large screen only. Mobile breakpoint should be around 480–767px.".
-
-Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
 
 ﻿﻿**Outil :** Figma make (Figma)
   
@@ -176,8 +168,22 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 
 **Prompt :** "Remove the drop down menu when the screen is larger than the Mobile breakpoint should be around 480–767px.".
 
-Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
-
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA n'a rien changé encore. Il n'a pas écouté.
+
+//
+
+**Prompt :** "In the section "Selected Work", leave default message saying: "Projet zone" space if there is no project hovered. Once a project is hovered, change the  "Projet zone" black spcae to the project visual.".
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a laissé un l'encadré visible sans besoin de hover. Parcontre, un visuel apparait lorsqu'un des projets est hovered.
+
+//
+
+**Prompt :** "The project "04" should'nt extend a row when hovered. Just make it occupy the second row without needing the hover to occupy it.".
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a corrigé le quatrième projet qui s'étend sur deux rangées lorsqu'il était hovered.
