@@ -152,3 +152,32 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
   
 ﻿﻿**Résultat :** L'IA a retiré une information inutile.
 
+//
+
+**Prompt :** "Make sure the hamburger menu only appear on mobile not on desktop or ipad. move the lightmode/darkmode switch where the hamburger menu was once it has been deleted.".
+
+Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a déplacer l'interrupteur du mode clair au mode sombre.
+
+//
+
+**Prompt :** "remove the mobile menu(the icon that open a drop down menu) when used in a large screen only. Mobile breakpoint should be around 480–767px.".
+
+Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA n'a rien changé. Il n'a pas écouté.
+
+//
+
+**Prompt :** "Remove the drop down menu when the screen is larger than the Mobile breakpoint should be around 480–767px.".
+
+Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA n'a rien changé encore. Il n'a pas écouté.
