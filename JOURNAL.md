@@ -107,7 +107,6 @@
 
 //
 
-
 **Prompt :** "Change it to this now: Based in Laval, Québec, I specialize in photography, video production, editing, and social media management."
 
 ﻿﻿**Outil :** Figma make (Figma)
@@ -187,3 +186,13 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA a corrigé le quatrième projet qui s'étend sur deux rangées lorsqu'il était hovered.
+
+//
+
+**Prompt :** "When the website is in light mode and you scroll on the section "Selected Work" the nav bar darkens. When it darken, the dark mode switch icon border and circle inside don't switch to #D8DBE2.".
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a corrigé la couleur de l'interrupteur en mode clair lorsque la nav est situé au dessus de la section des projets.
+
+//
