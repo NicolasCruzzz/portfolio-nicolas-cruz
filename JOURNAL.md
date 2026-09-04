@@ -64,3 +64,70 @@
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA a changé le titre principal.
+
+//
+
+**Prompt :** "When I hover selected work I want you to add a visual for the project hovered. Use a fictional video template and a fictional gallery template."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a ajouter un système de grid. Lorsqu'un de mes travaux sont survolés, un visuel s'affiche. 
+
+//
+
+**Prompt :** "modify my description: Hi, I'm Nico, short for Nicolas. I like taking photographies, I make videos, I manage social media app. Trained in Techniques d'intégration Multimédia at Collège Montmorency."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description. 
+
+//
+
+**Prompt :** "modify my description: Hi, I'm Nico, short for Nicolas. I like taking photographies, I make videos, I manage social media app. Trained in Techniques d'intégration Multimédia at Collège Montmorency."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description. 
+
+//
+
+**Prompt :** "Remove this: "and collaborate on team shooting projects."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description. 
+
+//
+
+**Prompt :** "Based in Laval, Québec. I photograph, make videos, manage social media, and collaborate on team shooting projects. Trained in Techniques d'intégration Multimédia at Collège Montmorency. CHANGE IT TO THIS: Based in Laval, Québec. I photograph, make videos and manage social media. Trained in Techniques d'intégration Multimédia at Collège Montmorency."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description. 
+
+//
+
+
+**Prompt :** "Change it to this now: Based in Laval, Québec, I specialize in photography, video production, editing, and social media management."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description. 
+
+//
+
+**Prompt :** "Change it to this now: Based in Laval, Québec, I specialize in photography, video production, editing, and social media management."
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description. 
+
+//
+
+**Prompt :** "Change the "About me" decription to this: "Hi, I'm Nico (Nicolas). I specialize in photography, video production, and social media management.
+
+Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description dans la section à propos. 
