@@ -131,3 +131,13 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 ﻿﻿**Outil :** Figma make (Figma)
   
 ﻿﻿**Résultat :** L'IA a modifié ma description dans la section à propos. 
+
+//
+
+**Prompt :** "change my healine description from this "Based in Laval, Québec, I specialize in photography, video production, editing, and social media management." to this: "Based in the Greater Montreal area, I offer specialized services in photography, video creation, editing, and social media management.".
+
+Currently finishing my degree in Multimedia Integration Techniques at Collège Montmorency, I am a creative, highly organized, and detail-oriented team player. Patient and persevering, I combine strong visual instincts with innovative thinking to bring compelling ideas to life.""
+
+﻿﻿**Outil :** Figma make (Figma)
+  
+﻿﻿**Résultat :** L'IA a modifié ma description dans la description en dessous du titre principal.
