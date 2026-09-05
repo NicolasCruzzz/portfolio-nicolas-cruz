@@ -1,5 +1,3 @@
-<img width="352" height="1600" alt="image" src="https://github.com/user-attachments/assets/730674a7-1be4-4c37-a0a5-3e5d325a0f10" /># Journal de bord de Nicolas Cruz
-
 ## Utilisation de L'IA
 
 ### 2026-09-03
