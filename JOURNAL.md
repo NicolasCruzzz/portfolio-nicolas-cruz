@@ -196,3 +196,21 @@ Currently finishing my degree in Multimedia Integration Techniques at Collège M
 ﻿﻿**Résultat :** L'IA a corrigé la couleur de l'interrupteur en mode clair lorsque la nav est situé au dessus de la section des projets.
 
 //
+
+### 2026-09-04
+
+**Prompt :** "Générer plusieurs directions visuelles très différentes les unes des autres avec (votre persona, votre moodboard). PERSONA: Quel type de poste ou de stage je vise en sortant du programme?
+
+Un stage encadré vers le montage vidéo et/ou le marketing digital
+Qui va probablement regarder mon portfolio? (un·e recruteur·e d'agence, une petite entreprise, un·e client·e potentiel·le...)
+PME ou un client potentiel
+Qu'est-ce que cette personne cherche à voir en premier?
+Elle cherche voir mes capacités professionnelles débutantes à développer au sein d’une équipe et des projets vidéo.
+Quel style visuel (couleurs, typographie, ambiance générale) représenterait le mieux l'identité professionnelle que je veux projeter?
+Des couleurs contrastées peu utilisées (mauve et vert). Les typographies seront modernes et lisibles. Elles seront séparées pour les titres et pour les textes. L’ambiance générale est un jeune original en adaptation constante du multimédia qui est en évolution constante.
+Quelle impression je veux que cette personne retienne après avoir visité mon site?
+Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté pour développer ma créativité. MOODBOARD: utiliser le fichier attaché". (J'ai attaché le moodboard que j'ai fait dans le prompt)
+
+﻿﻿**Outil :** Stitch AI (Google)
+  
+﻿﻿**Résultat :** L'IA a généré 3 site web avec 3 directions visuelles différentes de la direction artistique du Moodboard que j'ai fait.
