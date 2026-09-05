@@ -1,4 +1,4 @@
-# Journal de bord de Nicolas Cruz
+<img width="352" height="1600" alt="image" src="https://github.com/user-attachments/assets/730674a7-1be4-4c37-a0a5-3e5d325a0f10" /># Journal de bord de Nicolas Cruz
 
 ## Utilisation de L'IA
 
@@ -213,4 +213,21 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 ﻿﻿**Outil :** Stitch AI (Google)
   
-﻿﻿**Résultat :** L'IA a généré 3 site web avec 3 directions visuelles différentes de la direction artistique du Moodboard que j'ai fait.
+﻿﻿**Résultat :** L'IA a généré un nouveau Moodboard et 3 site web avec 3 directions visuelles différentes de la direction artistique du Moodboard que j'ai fait.
+
+//
+
+**Prompt :** "make a different palette and show me 3 other website variants"
+
+﻿﻿**Outil :** Stitch AI (Google)
+  
+﻿﻿**Résultat :**  L'IA a généré un nouveau Moodboard et 3 site web avec 3 directions visuelles différentes de la direction artistique du Moodboard que j'ai fait.
+
+//
+
+**Prompt :** "make a different palette and show me 3 other website variants"
+
+﻿﻿**Outil :** Stitch AI (Google)
+  
+﻿﻿**Résultat :**  L'IA a généré un nouveau Moodboard et 3 site web avec 3 directions visuelles différentes de la direction artistique du Moodboard que j'ai fait.
+
