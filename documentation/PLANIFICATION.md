@@ -1,15 +1,21 @@
 ## Choix technologiques
 
-Je vais faire la gestion des données dans une base de données ou fichier externe (format .json).
+Je vais faire la gestion des données avec un fichier JSON local. Je n'aurait pas besoin de serveur ni de compte externe.
 
-Je vais utiliser Animejs pour les animations de mon portofolio.
+Je vais utiliser Animejs pour les animations de mon portofolio. Ce sont des animations faciles et uniformes. En utilisant des animation avec accélération progressive et décélération progressive, celles-ci respectent l'esthétique de mon portofolio.
 
-- **Élément à animer :** [ex. les cartes de projets]
-- **Type d'animation :** [ex. fondu et léger déplacement vers le haut]
-- **Déclencheur :** [ex. apparition au défilement, survol, clic]
+**Élément à animer :** Les boutons et les projets
+**Type d'animation :** Survol
+**Déclencheur :** Un "clic"
 
-Je vais faire un "one-pager"
+**Élément à animer :** Les textes et les images
+**Type d'animation :** Une animation d'apparition
+**Déclencheur :** Le scroll
 
-Je vais utiliser Github pages pour faire l'hébergement de mon déploiment.
+**Élément à animer :** Curseur
+**Type d'animation :** Un cercle arrondi ou une ombre circulaire au curseur.
+**Déclencheur :** L'utilisation dans la page
 
-//
+Je vais faire un "one-pager" avec pop-up. Lorsque je clique sur un projet, il y aura une carte qui surgit.
+
+Je vais utiliser Github pages pour faire l'hébergement de mon "one-pager".
