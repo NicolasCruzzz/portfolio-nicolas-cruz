@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Portfolio - Nicolas Cruz</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/composants/navigation.css">
+  </head>
+  <body>
+
+    <!-- Crée un header avec un nav qui contient un logoun nav qui contient Accueil, Porjets, À propos, COntact puis aussi une icone de lune pour le dakr mode-->
+    <header>
+      <nav>
+          <a href="index.html" class="logo"><img src="assets/images/Signature Nicolas Cruz 2026.png" alt="Signature Nicolas Cruz 2026" /></a>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="projet.html">Projets</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+          🌙
+        </button>
+      </nav>
+    </header>
+
+        <main>
+          <section id="accueil" style="min-height:80vh"></section>
+          <section id="projets" style="min-height:80vh"></section>
+          <section id="apropos" style="min-height:80vh"></section>
+          <section id="contact" style="min-height:80vh"></section>
+        </main>
+
+
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

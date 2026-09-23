@@ -257,3 +257,72 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
    Oui, j'ai utilisé l'IA pour me donner des idées sans copier le contenu généré. Les polices, la palette de couleur et le placement des éléments m'appartiennent. J'ai appris à utiliser Figma make et Stitch de Google.
 
 //
+
+### <em>2026-09-23</em>
+
+**Prompt :** "Fait la structure de départ du projet. Voici la nomenclature: portfolio-prenom-nom/
+├── README.md
+├── index.html
+├── projet.html (si applicable multipages)
+├── css/
+│ ├── base.css
+│ ├── variables.css
+│ ├── layout.css
+│ └── composants/
+│ ├── carte-projet.css
+│ ├── navigation.css
+│ └── modale.css (si applicable pour les pop-ups)
+├── js/
+│ ├── main.js
+│ ├── data.js
+│ └── composants/
+│ ├── carte-projet.js
+│ └── modale.js
+├── data/
+│ └── projets.json (si applicable)
+├── assets/
+│ ├── images/
+│ └── icones/
+├── exports-composants/
+│ └── (captures PNG Figma, une par composant, nommées comme le fichier CSS correspondant)
+├── .github/
+│ └── copilot-instructions.md
+├── documentation/
+│ └── PLANIFICATION.md
+│ └── JOURNAL.md"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a généré la strucutre de départ du projet. De plus, elle a suivi la nomenclature de base.
+
+// 
+
+**Prompt :** "ajoute le lien vers navigation.css et dans ce fichier là, justement, va styliser selon le screenshot nav.png qui se trouve dans exports-composant"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a généré une composante pour la navigation.
+
+//
+
+**Prompt :** "Attention, je ne veut pas charger une autre page avec ma navigation, je souhaite défiller la page dans une section prédéterminée."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajusté le code pour défiller dans une section.
+
+//
+
+**Prompt :** "ajoute l'image "Signature Nicolas Cruz 2026" comme le logo du nav."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté l'image "Signature Nicolas Cruz 2026" comme le logo du nav.
+
+//
+
+**Prompt :** ""
+
+**Outil :** Copilot
+
+**Résultat :** 
