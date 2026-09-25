@@ -323,7 +323,7 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 ### <em>2026-09-24</em>
 
-**Prompt :** ""
+**Prompt :** "fait la structure de case de la section d'accueil de mon site"
 
 **Outil :** Copilot
 

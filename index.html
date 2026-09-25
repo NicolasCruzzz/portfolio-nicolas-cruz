@@ -1,41 +1,50 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Portfolio - Nicolas Cruz</title>
     <!-- Styles CSS -->
-    <link rel="stylesheet" href="css/variables.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/composants/navigation.css">
-    <link rel="stylesheet" href="css/composants/carte-projet.css">
-    <link rel="stylesheet" href="css/composants/modale.css">
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/composants/navigation.css" />
+    <link rel="stylesheet" href="css/composants/carte-projet.css" />
+    <link rel="stylesheet" href="css/composants/modale.css" />
   </head>
   <body>
     <!-- Barre de Navigation -->
     <header>
       <nav>
-          <a href="index.html" class="logo"><img src="assets/images/Signature Nicolas Cruz 2026.png" alt="Signature Nicolas Cruz 2026" /></a>
+        <a href="index.html" class="logo"
+          ><img
+            src="assets/images/Signature Nicolas Cruz 2026.png"
+            alt="Signature Nicolas Cruz 2026"
+        /></a>
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="projet.html">Projets</a></li>
-          <li><a href="apropos.html">À propos</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <button id="dark-mode-toggle" aria-label="Toggle dark mode">
-          🌙
-        </button>
+        <button id="dark-mode-toggle" aria-label="Toggle dark mode">🌙</button>
       </nav>
     </header>
 
-   <main>
+    <main>
       <!-- Section Accueil -->
-      <section id="accueil" style="min-height:80vh">
-        <h1>Je fais du <span class="texte-bleu">contenu</span> et je fais la gestion des <span class="texte-bleu">réseaux sociaux</span></h1>
-        
+      <section id="accueil" style="min-height: 80vh">
+        <h1>
+          Je fais du <span class="texte-bleu">contenu</span> et je fais la
+          gestion des <span class="texte-bleu">réseaux sociaux</span>
+        </h1>
+
         <p class="texte-intro">
-          Installé dans la région métropolitaine de <span class="texte-bleu">Montréal</span>, j'offre des services spécialisés en <span class="texte-bleu">vidéo</span>, en <span class="texte-bleu">montage</span> et en gestion de <span class="texte-bleu">réseaux sociaux</span>.
+          Installé dans la région métropolitaine de
+          <span class="texte-bleu">Montréal</span>, j'offre des services
+          spécialisés en <span class="texte-bleu">vidéo</span>, en
+          <span class="texte-bleu">montage</span> et en gestion de
+          <span class="texte-bleu">réseaux sociaux</span>.
         </p>
 
         <div class="boutons-accueil">
@@ -51,18 +60,173 @@
         </div>
       </section>
 
-          <section id="projets" style="min-height:80vh"></section>
-          <section id="apropos" style="min-height:80vh"></section>
-          <section id="contact" style="min-height:80vh"></section>
-        </main>
-    
-    <section
-    id="modale-container" class="modale-container" hidden>
-        <div class="modale-content">
-            <button id="close-modale" class="close-modale" aria-label="Close modal">✕</button>
-            <div id="modale-body"></div>
-        </div> 
+      <!-- Section Projets -->
+      <section id="projets" style="min-height: 80vh">
+        <h2>Projets</h2>
+        <div id="liste-projets" class="conteneur-projets">
+          <article class="carte-projet">
+            <span class="icone-cercle"></span>
+            <h3>Routine orageuse</h3>
+          </article>
+          <article class="carte-projet">
+            <span class="icone-cercle"></span>
+            <h3>Errer sans but comme un vieux journal</h3>
+          </article>
+          <article class="carte-projet">
+            <span class="icone-cercle"></span>
+            <h3>La pilule</h3>
+          </article>
+          <article class="carte-projet">
+            <span class="icone-cercle"></span>
+            <h3>Site web de Timonier</h3>
+          </article>
+        </div>
+      </section>
 
+      <!-- Section À propos -->
+      <section id="apropos" style="min-height: 80vh">
+        <h2>À propos</h2>
+
+        <div class="conteneur-etiquettes">
+          <span class="etiquette">Vidéographie</span>
+          <span class="etiquette">Montage</span>
+          <span class="etiquette">Marketing</span>
+          <span class="etiquette">Site web</span>
+        </div>
+
+        <div class="contenu-apropos">
+          <div class="texte-apropos">
+            <p>
+              Salut, je suis Nico (<em>Nicolas</em>). Je me spécialise en
+              <span class="texte-bleu">vidéo</span>, en
+              <span class="texte-bleu">montage</span> et en gestion de
+              <span class="texte-bleu">réseaux sociaux</span>.
+            </p>
+            <p>
+              Actuellement finissant en Techniques d'intégration multimédia au
+              Collège Montmorency, je suis une personne
+              <span class="texte-bleu">créative</span>, très
+              <span class="texte-bleu">organisée</span>, soucieuse du
+              <span class="texte-bleu">détail</span> et dotée d'une bonne
+              <span class="texte-bleu">communication</span>.
+              <span class="texte-bleu">Patient</span> et
+              <span class="texte-bleu">persévérant</span>, j'ai un sens visuel
+              aiguisé et une approche innovante pour donner vie à des idées
+              modernes.
+            </p>
+          </div>
+          <div class="image-apropos">
+            <img src="" alt="Photo Nicolas Cruz" />
+          </div>
+        </div>
+
+        <div class="conteneur-logiciels">
+          <h3>Logiciels connus</h3>
+          <div class="carrousel-logiciels">
+            <button class="fleche fleche-gauche" aria-label="Précédent">
+              &lt;
+            </button>
+            <div class="liste-logiciels">
+              <div class="element-logiciel">
+                <img src="assets/icones/ps.png" alt="Photoshop" /><span
+                  >Photoshop</span
+                >
+              </div>
+              <div class="element-logiciel">
+                <img src="assets/icones/ai.png" alt="Illustrator" /><span
+                  >Illustrator</span
+                >
+              </div>
+              <div class="element-logiciel">
+                <img src="assets/icones/ae.png" alt="After Effects" /><span
+                  >After Effects</span
+                >
+              </div>
+              <div class="element-logiciel">
+                <img src="assets/icones/figma.png" alt="Figma" /><span
+                  >Figma</span
+                >
+              </div>
+              <div class="element-logiciel">
+                <img src="assets/icones/reaper.png" alt="Reaper" /><span
+                  >Reaper</span
+                >
+              </div>
+              <div class="element-logiciel">
+                <img src="assets/icones/maya.png" alt="Autodesk Maya" /><span
+                  >Autodesk Maya</span
+                >
+              </div>
+              <div class="element-logiciel">
+                <img src="assets/icones/unity.png" alt="Unity" /><span
+                  >Unity</span
+                >
+              </div>
+              <div class="element-logiciel">
+                <img
+                  src="assets/icones/touchdesigner.png"
+                  alt="TouchDesigner"
+                /><span>TouchDesigner</span>
+              </div>
+              <div class="element-logiciel">
+                <img src="assets/icones/davinci.png" alt="DaVinci" /><span
+                  >DaVinci</span
+                >
+              </div>
+            </div>
+            <button class="fleche fleche-droite" aria-label="Suivant">
+              &gt;
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Contact -->
+      <section id="contact" style="min-height: 80vh">
+        <h2>Contact</h2>
+        <div class="liens-contact">
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            class="element-contact"
+          >
+            <img src="assets/icones/linkedin.png" alt="LinkedIn" />
+            <span>Nicolas Cruz</span>
+          </a>
+          <a
+            href="https://github.com/NicolasCruzzz"
+            target="_blank"
+            class="element-contact"
+          >
+            <img src="assets/icones/github.png" alt="GitHub" />
+            <span>NicolasCruzzz</span>
+          </a>
+          <a href="mailto:ncruz987654321@gmail.com" class="element-contact">
+            <img src="assets/icones/email.png" alt="Email" />
+            <span>ncruz987654321@gmail.com</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+      <p>&copy; Nicolas Cruz 2026</p>
+    </footer>
+
+    <!-- Conteneur de la Modale (sert de boîte de dialogue flottante pour afficher les projets)-->
+    <section id="conteneur-modale" class="conteneur-modale" hidden>
+      <div class="contenu-modale">
+        <button
+          id="fermer-modale"
+          class="fermer-modale"
+          aria-label="Fermer la modale"
+        >
+          ✕
+        </button>
+        <div id="corps-modale"></div>
+      </div>
+    </section>
 
     <script src="js/data.js"></script>
     <script src="js/main.js" defer></script>
