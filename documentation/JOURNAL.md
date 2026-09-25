@@ -327,4 +327,12 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 **Outil :** Copilot
 
-**Résultat :**
+**Résultat :** L'AI m'a donné le HTML de base de la section accueil.
+
+//
+
+**Prompt :** "fait la structure de base HTML de mon projet (+design du portofolio annexé)"
+
+**Outil :** Copilot
+
+**Résultat :** L'AI m'a donné le HTML de base de mon portofolio.
