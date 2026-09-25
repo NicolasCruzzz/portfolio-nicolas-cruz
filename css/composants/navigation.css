@@ -1,56 +1,58 @@
-.nav-root{
-	background:#0e0b0e; /* dark background */
-	color:#e6e6ea;
+.nav-root {
+  background: #0c090d; /* fond foncé */
+  color: #d8dbe2;
 }
 
-/* layout */
-nav{
-	display:flex;
-	align-items:center;
-	justify-content:space-between;
-	padding:1.25rem 2rem;
+/* mise en page */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
 }
 
-nav .logo{
-	display:inline-block;
-	display:flex;
-	align-items:center;
+nav .logo {
+  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
-nav .logo img{
-	display:block;
-	height:44px;
-	width:auto;
+nav .logo img {
+  display: block;
+  height: 44px;
+  width: auto;
 }
 
-nav ul{
-	list-style:none;
-	display:flex;
-	gap:3.5rem;
-	margin:0;
-	padding:0;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3.5rem;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li a{
-	color:#e6e6ea;
-	text-decoration:none;
-	font-size:1.15rem;
-	font-weight:700;
-	font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
+nav ul li a {
+  color: #e6e6ea;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-family: 'Poppins', 'Segoe UI', Roboto, sans-serif;
 }
 
-#dark-mode-toggle{
-	background:transparent;
-	color:#e6e6ea;
-	border:2px solid #bfbfc4;
-	width:44px;
-	height:44px;
-	border-radius:50%;
-	display:inline-grid;
-	place-items:center;
-	font-size:1.15rem;
+#dark-mode-toggle {
+  background: transparent;
+  color: #d8dbe2;
+  border: 2px solid #bfbfc4;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  font-size: 1.15rem;
 }
 
-/* center nav items horizontally */
-header nav{max-width:1200px;margin:0 auto}
-
+/* centre les éléments de la navigation horizontalement */
+header nav {
+  max-width: 1200px;
+  margin: 0 auto;
+}

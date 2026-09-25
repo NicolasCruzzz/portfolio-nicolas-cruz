@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Portfolio - Nicolas Cruz</title>
+    <!-- Styles CSS -->
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/composants/navigation.css">
+    <link rel="stylesheet" href="css/composants/carte-projet.css">
+    <link rel="stylesheet" href="css/composants/modale.css">
   </head>
   <body>
-
-    <!-- Crée un header avec un nav qui contient un logoun nav qui contient Accueil, Porjets, À propos, COntact puis aussi une icone de lune pour le dakr mode-->
+    <!-- Barre de Navigation -->
     <header>
       <nav>
           <a href="index.html" class="logo"><img src="assets/images/Signature Nicolas Cruz 2026.png" alt="Signature Nicolas Cruz 2026" /></a>
@@ -27,8 +29,28 @@
       </nav>
     </header>
 
-        <main>
-          <section id="accueil" style="min-height:80vh"></section>
+   <main>
+      <!-- Section Accueil -->
+      <section id="accueil" style="min-height:80vh">
+        <h1>Je fais du <span class="texte-bleu">contenu</span> et je fais la gestion des <span class="texte-bleu">réseaux sociaux</span></h1>
+        
+        <p class="texte-intro">
+          Installé dans la région métropolitaine de <span class="texte-bleu">Montréal</span>, j'offre des services spécialisés en <span class="texte-bleu">vidéo</span>, en <span class="texte-bleu">montage</span> et en gestion de <span class="texte-bleu">réseaux sociaux</span>.
+        </p>
+
+        <div class="boutons-accueil">
+          <a href="#projets" class="btn btn-bleu">Voir les projets</a>
+          <a href="#contact" class="btn btn-rouge">Contactez-moi</a>
+        </div>
+
+        <div class="bloc-showreel">
+          <h2>Showreel 2026</h2>
+          <div class="conteneur-video">
+            <div class="video-emplacement"></div>
+          </div>
+        </div>
+      </section>
+
           <section id="projets" style="min-height:80vh"></section>
           <section id="apropos" style="min-height:80vh"></section>
           <section id="contact" style="min-height:80vh"></section>

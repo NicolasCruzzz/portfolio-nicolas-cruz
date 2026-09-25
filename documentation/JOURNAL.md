@@ -295,7 +295,7 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 **Résultat :** L'IA a généré la strucutre de départ du projet. De plus, elle a suivi la nomenclature de base.
 
-// 
+//
 
 **Prompt :** "ajoute le lien vers navigation.css et dans ce fichier là, justement, va styliser selon le screenshot nav.png qui se trouve dans exports-composant"
 
@@ -309,7 +309,7 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 **Outil :** Copilot
 
-**Résultat :** L'IA a ajusté le code pour défiller dans une section.
+**Résultat :** L'IA a ajusté le code pour défiler dans une section.
 
 //
 
@@ -321,8 +321,10 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 //
 
+### <em>2026-09-24</em>
+
 **Prompt :** ""
 
 **Outil :** Copilot
 
-**Résultat :** 
+**Résultat :**
