@@ -350,10 +350,45 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 ### <em>2026-09-30</em>
 
 
-**Prompt :** ""
+**Prompt :** "sépare ce code en suivant l'arboresecence de l'image: async function loadProjects() {
+const response = await fetch('data/projects.json');
+const projects = await response.json();
+return projects;
+}
+
+async function init() {
+const projects = await loadProjects();
+console.table(projects);
+
+const grid = document.querySelector('.projects__grid');
+
+projects.forEach(project => {
+grid.innerHTML += createProjectCard(project);
+});
+
+projects.forEach(project => {
+console.log(project.title);
+});
+}
+
+function createProjectCard(project) {
+return `
+<article class="project-card">
+<img class="project-card__image" src="${project.image}" alt="${project.title}"> //ajouter le contenu de l'attribut alt pour l'image
+<div class="project-card__content">
+<h3 class="project-card__title">${project.title}</h3>
+<p class="project-card__meta">
+project.category⋅{project.year}</p>
+<p class="project-card__description">${project.description}</p>
+//ajouter un condition pour vérifier si le projet a un lien en ligne
+${project.url ? `<a class="project-card__link" href="${project.url}" target="_blank">Voir en ligne</a>` : ''}
+</div>
+</article>
+`;
+}"
 
 **Outil :** Copilot
 
-**Résultat :** L'AI...
+**Résultat :** L'AI a ajouté le javascript à travers 3 fichier javascript. 
 
-**Ce que j'ai compris :** 
+**Ce que j'ai compris :** Dans data.js, la fonction cherche les données et il les retourne. S'il y a une erreur, un message est affiché. Dans carte-projet.js, le javascript déclare une fonction pour transformer mon projet en HTML et il le retourne pour obtenir l'affichage sur le html. Dans main.js.... (fin de cours à suivre)
