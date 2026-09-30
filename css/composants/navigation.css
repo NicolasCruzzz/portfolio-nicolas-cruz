@@ -1,10 +1,5 @@
-.nav-root {
-  background: #0c090d; /* fond foncé */
-  color: #d8dbe2;
-}
-
-/* mise en page */
 nav {
+  background: #0c090d; /* fond foncé */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -53,6 +48,7 @@ nav ul li a {
 
 /* centre les éléments de la navigation horizontalement */
 header nav {
-  max-width: 1200px;
-  margin: 0 auto;
+  /* don't constrain nav width so background can span full viewport */
+  max-width: none;
+  margin: 0;
 }

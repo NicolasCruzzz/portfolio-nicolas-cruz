@@ -1,1 +1,23 @@
-["Routine orageuse", "Errer sans but comme un vieux journal", "La pilule", "Site web de Timonier"]
+[
+    {
+        "id": "routine-orageuse",
+        "name": "Routine orageuse",
+        "description": "Routine orageuse, réalisé en 2024, est un projet académique pour le cours de vidéo 2. L’histoire a été pensée pour une présentation dans un grand studio au Collège Montmorency. DaVinci Resolve, Midjourney et Runway ont été utilisés pour réaliser ce projet. Ce dernier est constitué de vidéos générées par l’IA et des vidéos tournées en studio. Ce travail met en lumière la vie tourmentée d’Edward. Cependant, la présence de son chat change son état émotionnel. Notre professeur nous a demandé de faire une expérience immersive en utilisant des éléments visuels et sonores. En plus, il fallait utiliser des vidéos générées par l’IA pour quelques visuels. Ce projet a été fait en équipe avec Xavier Martineau et Maxime Rocheleau. J’ai contribué à la conceptualisation de l’histoire, j’ai assuré la cohérence au tournage et j’ai dirigé notre acteur invité. Enfin, j’ai fait le montage final du projet."
+    },
+    {
+        "id": "errer-sans-but-comme-un-vieux-journal",  
+        "name": "Errer sans but comme un vieux journal",
+        "description": "En 2024, Errer sans but comme un vieux journal a été réalisé pour un projet académique dans le cadre du cours de vidéo 2. DaVinci Resolve a été utilisé pour effectuer ce travail. Ce projet consiste à faire une répétition abstraite d'un poème. Le professeur nous a demandé de faire une vidéo expérimentale, en utilisant des objectifs macro, d'une minute et demie sur le corps humain. L'accumulation d'images et de sons devaient exprimer une émotion, une matière ou raconter une histoire sans paroles. L'objectif est d'utiliser le corps comme langage visuel et sonore, à travers une approche sensorielle, poétique ou abstraite. Ce projet a été réalisé en équipe avec Xavier Martineau et Maxime Rocheleau. J'ai contribué à la conceptualisation de l'histoire et j'ai assuré la cohérence lors du tournage. De plus, j'ai fait le montage final du projet."
+    },
+    {
+        "id": "la-pilule",
+        "name": "La pilule",
+        "description": "La pilule, réalisé en 2024, est un projet académique pour le cours de vidéo 1. DaVinci Resolve et Dragonframe ont été utilisés pour réaliser cette vidéo. Cette dernière est constituée de plusieurs images individuelles faites avec Dragonframe. Ces images ont été utilisées pour le montage avec DaVinci Resolve. Ce travail met en lumière un écrivain qui consomme des pilules stimulant sa créativité. Le professeur nous a demandé de tourner un projet en \"stop motion\" avec Dragonframe. Ensuite, il fallait faire un montage audiovisuel sur DaVinci Resolve. Ce projet a été fait en équipe avec Thearylou Lach, Ting Yung Lu et Xavier Martineau. J'ai assisté à la conception du découpage technique (storyboard) et à la création d'une animation 2D. Durant le tournage, mon équipe et moi avons disposé l'équipement par rapport au scénarimage. De plus, j'ai dirigé notre acteur invité."
+    },
+    {
+        "id": "site-web-de-timonier",
+        "name": "Site web de Timonier",
+        "description": "En 2026, j’ai réalisé un projet personnel consistant en la création du site web de Timonier, une PME spécialisée en nettoyage, en entretien et en conciergerie. Le client avait besoin d’un site web vitrine pour présenter son entreprise. En passant par Hostinger, j’ai configuré un hébergement et le nom de domaine, ce qui m’a permis de bâtir un site web à l’aide de Wordpress. Comme le client souhaitait un site web très économique, j’ai utilisé des extensions gratuites. J’ai communiqué régulièrement avec le client pour cibler le contenu désiré et je lui ai fait part de mes recommandations lorsque c’était nécessaire. Une fois le site complété et ajusté selon ses goûts, je suis demeuré à sa disposition pour assurer la maintenance de la plateforme ainsi que l'évolution de son abonnement. Lien vers le site web: Timonierinc.ca"
+    }
+]
+
