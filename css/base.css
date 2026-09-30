@@ -1,3 +1,25 @@
+@font-face{
+  font-family:'BloggerSans';
+  src:url('assets\fonts\Blogger_Sans.otf')format('otf'),
+      url('assets\fonts\Blogger_Sans-bold.otf')format('otf'),
+      url('')format('otf'),
+      url('')format('otf');
+}
+
+@font-face{
+  font-family:'SNPro';
+  src:url('')format(''),
+      url('')format('');
+}
+
+@font-face{
+  font-family:'AveriaLibre';
+  src:url('')format(''),
+      url('')format(''),
+      url('')format(''),
+      url('')format('');
+}
+
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial; background:var(--bg);color:var(--text)}

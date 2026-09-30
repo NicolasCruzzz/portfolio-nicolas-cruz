@@ -344,3 +344,16 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 **Résultat :** L'AI m'a donné le HTML de base de mon portofolio.
 
 **Ce que j'ai compris :** L'IA a ajouté des sections "projets", "à propos", "contact" et un pied de page basé sur le design du portofolio en html.
+
+//
+
+### <em>2026-09-30</em>
+
+
+**Prompt :** ""
+
+**Outil :** Copilot
+
+**Résultat :** L'AI...
+
+**Ce que j'ai compris :** 
