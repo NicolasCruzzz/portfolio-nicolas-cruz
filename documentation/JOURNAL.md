@@ -311,6 +311,8 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 **Résultat :** L'IA a ajusté le code pour défiler dans une section.
 
+**Ce que j'ai compris :** Le lien ne mène pas à un ficher.html. Il mène vers le "ID" associé de chaque sections choisies.
+
 //
 
 **Prompt :** "ajoute l'image "Signature Nicolas Cruz 2026" comme le logo du nav."
@@ -319,20 +321,26 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 **Résultat :** L'IA a ajouté l'image "Signature Nicolas Cruz 2026" comme le logo du nav.
 
+**Ce que j'ai compris :** L'IA a ajouter une balise image dans la balise "nav".
+
 //
 
 ### <em>2026-09-24</em>
 
-**Prompt :** "fait la structure de case de la section d'accueil de mon site"
+**Prompt :** "fait la structure de case de la section d'accueil de mon site + (image section accueil annexée)"
 
-**Outil :** Copilot
+**Outil :** Google Gemini
 
 **Résultat :** L'AI m'a donné le HTML de base de la section accueil.
+
+**Ce que j'ai compris :** L'IA a ajouté une section accueil basé sur la section accueil dans le design en html.
 
 //
 
 **Prompt :** "fait la structure de base HTML de mon projet (+design du portofolio annexé)"
 
-**Outil :** Copilot
+**Outil :** Google Gemini
 
 **Résultat :** L'AI m'a donné le HTML de base de mon portofolio.
+
+**Ce que j'ai compris :** L'IA a ajouté des sections "projets", "à propos", "contact" et un pied de page basé sur le design du portofolio en html.
