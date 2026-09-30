@@ -1,4 +1,9 @@
-// Example data structure for projects
-const projets = []
+export async function loadProjects() {
+	const response = await fetch('data/projets.json');
 
-export default projets
+	if (!response.ok) {
+		throw new Error(`Impossible de charger les projets (${response.status})`);
+	}
+
+	return response.json();
+}
