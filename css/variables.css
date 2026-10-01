@@ -1,5 +1,30 @@
 :root {
-  --bg: #d8dbe2;
-  --text: #0c090d;
+  --onyx: #0c090d;
+  --burgundy: #55000e;
+  --red: #f21d3c;
+  --mist: #d8dbe2;
+  --muted-blue: #587faa;
+  --blue: #21639d;
+
+  --bg: var(--mist);
+  --text: var(--onyx);
   --accent: #145c9e;
+  --surface: var(--mist);
+  --nav-bg: var(--onyx);
+  --nav-text: var(--mist);
+  --border: #777980;
+  --card-border: var(--onyx);
+  --shadow: rgba(12, 9, 13, 0.25);
+}
+
+body.dark-mode {
+  --bg: var(--onyx);
+  --text: var(--mist);
+  --accent: #145c9e;
+  --surface: var(--onyx);
+  --nav-bg: var(--mist);
+  --nav-text: var(--onyx);
+  --border: #777980;
+  --card-border: var(--mist);
+  --shadow: rgba(216, 219, 226, 0.25);
 }

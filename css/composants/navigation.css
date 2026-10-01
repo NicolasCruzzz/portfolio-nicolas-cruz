@@ -1,5 +1,5 @@
 nav {
-  background: #0c090d; /* fond foncé */
+  background: var(--nav-bg);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -27,7 +27,7 @@ nav ul {
 }
 
 nav ul li a {
-  color: #e6e6ea;
+  color: #0c090d;
   text-decoration: none;
   font-size: 1.15rem;
   font-weight: 700;
@@ -36,14 +36,21 @@ nav ul li a {
 
 #dark-mode-toggle {
   background: transparent;
-  color: #d8dbe2;
-  border: 2px solid #bfbfc4;
+  color: var(--nav-text);
+  border: 2px solid var(--nav-text);
   width: 44px;
   height: 44px;
   border-radius: 50%;
   display: inline-grid;
   place-items: center;
   font-size: 1.15rem;
+}
+
+#dark-mode-toggle img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 /* centre les éléments de la navigation horizontalement */

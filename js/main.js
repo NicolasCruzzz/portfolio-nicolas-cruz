@@ -4,6 +4,8 @@ import { createProjectCard } from './composants/carte-projet.js';
 document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
+  setupDarkMode();
+
   try {
     const projects = await loadProjects();
     console.table(projects);
@@ -22,4 +24,30 @@ async function init() {
   } catch (error) {
     console.error(error);
   }
+}
+
+function setupDarkMode() {
+  const toggle = document.querySelector('#dark-mode-toggle');
+  const darkModeEnabled = localStorage.getItem('dark-mode') === 'true';
+
+  if (!toggle) {
+    return;
+  }
+
+  applyDarkMode(darkModeEnabled, toggle);
+
+  toggle.addEventListener('click', () => {
+    const enabled = !document.body.classList.contains('dark-mode');
+    localStorage.setItem('dark-mode', enabled);
+    applyDarkMode(enabled, toggle);
+  });
+}
+
+function applyDarkMode(enabled, toggle) {
+  document.body.classList.toggle('dark-mode', enabled);
+  toggle.setAttribute('aria-pressed', String(enabled));
+  toggle.setAttribute(
+    'aria-label',
+    enabled ? 'Activer le mode clair' : 'Activer le mode sombre'
+  );
 }
