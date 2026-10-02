@@ -16,9 +16,11 @@ async function init() {
       throw new Error('Conteneur de projets introuvable.');
     }
 
-    grid.innerHTML = projects.map(project => createProjectCard(project)).join('');
+    grid.innerHTML = projects
+      .map((project) => createProjectCard(project))
+      .join('');
 
-    projects.forEach(project => {
+    projects.forEach((project) => {
       console.log(project.name);
     });
   } catch (error) {
@@ -48,6 +50,17 @@ function applyDarkMode(enabled, toggle) {
   toggle.setAttribute('aria-pressed', String(enabled));
   toggle.setAttribute(
     'aria-label',
-    enabled ? 'Activer le mode clair' : 'Activer le mode sombre'
+    enabled ? 'Activer le mode clair' : 'Activer le mode sombre',
   );
+
+  const icon = toggle.querySelector('img');
+
+  if (icon) {
+    icon.src = enabled
+      ? 'assets/icones/lune_logo_dark.png'
+      : 'assets/icones/lune_logo_light.png';
+    icon.alt = enabled
+      ? 'Icône pour activer le mode clair'
+      : 'Icône pour activer le mode sombre';
+  }
 }

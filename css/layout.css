@@ -91,6 +91,12 @@ footer p {
   min-width: 0;
 }
 
+.etiquette {
+  border: 3px solid var(--text);
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
+}
+
 .conteneur-video,
 .image-apropos,
 .carrousel-logiciels {
@@ -115,4 +121,92 @@ footer p {
 
 .carte-projet {
   box-shadow: 4px 4px 0 var(--shadow);
+}
+
+.conteneur-projets {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.carte-projet iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 0 1.25rem;
+  }
+
+  main > section {
+    min-height: auto !important;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+  }
+
+  .conteneur-video {
+    width: 100%;
+  }
+
+  .contenu-apropos {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 0 1rem;
+  }
+
+  main > section {
+    margin-bottom: 2rem;
+    padding: 1.5rem 0;
+  }
+
+  .conteneur-projets {
+    grid-template-columns: 1fr;
+  }
+
+  .contenu-apropos {
+    flex-direction: column;
+  }
+
+  .image-apropos {
+    align-self: center;
+  }
+
+  .conteneur-etiquettes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .carrousel-logiciels {
+    gap: 0.25rem;
+  }
+
+  .liste-logiciels {
+    gap: 0.25rem;
+  }
+
+  .element-logiciel {
+    flex: 1 1 0;
+    min-width: 0;
+    gap: 0.25rem;
+  }
+
+  .element-logiciel img,
+  .element-contact img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .element-logiciel span {
+    font-size: 0.65rem;
+    overflow-wrap: anywhere;
+  }
 }

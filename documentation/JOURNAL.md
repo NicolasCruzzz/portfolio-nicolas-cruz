@@ -605,10 +605,50 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 //
 
+**Prompt :** "Make my whole website responsive on mobile and tablet sized devices"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a Navigation qui se replie correctement. Les sections sans hauteur sont forcées sur lespetits écrans. Les projets en grille puis en une colonne. La section à propos est empilée sur mobile. Le carrousel et icônes adaptés aux petits écrans. Les marges et textes ajustés pour éviter les débordements. Les fichiers modifiés : base.css, layout.css,navigation.css
+
+**Ce que j'ai compris :** L'IA a ajusté ou modifié plusieurs éléments pour le rendu responsive du site web sur les appareils mobiles et tablette. Cela inclut la navigation, les sections, les projets en grille, le iframe, la section à propos, les images, les marges, les textes et les titres pour que le site web soit responsive sur mobile "@media (max-width: 600px)" et tablette "@media (max-width: 900px)".
+
+//
+
+**Prompt :** "switch "assets/icones/lune_logo_light.png" to "assets/icones/lune_logo_dark.png" when the lgiht/dark mode toggle is switched"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a corrigé l'image affichée dans le nav en mode sombre.
+
+**Ce que j'ai compris :** L'IA a un code javascript dans main.js qui change l'icône du mode clar lorsqu'on alterne entre le mode clair et le mode sombre.
+
+//
+
+**Prompt :** "ajoute une bordure de 3px avec les coins arrondis de 5px à "etiquette"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté la bordure demandée.
+
+**Ce que j'ai compris :** L'IA a ajouté une bordure de 3px avec les coins arrondis de 5px à "etiquette".
+
+//
+
+**Prompt :** "ajoute un peu de padding dans les étiquettes pour assurer la lisibilité"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté du padding dans les étiquettes pour assurer la lisibilité.
+
+**Ce que j'ai compris :** L'IA a ajouté un padding de 0.25rem et 0.5rem.
+
+//
+
 **Prompt :** "
 
 **Outil :** Copilot
 
 **Résultat :** L'IA a
 
-**Ce que j'ai compris :** L
+**Ce que j'ai compris :** L'IA a
