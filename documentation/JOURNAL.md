@@ -756,3 +756,31 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 **Ce que j'ai compris :** Dans la fonction "function createProjectCard", l'IA a ajouté un condition pour vérifier si le projet a un lien en ligne dans la classe "carte-projet". Si le projet a un lien, il va créer un lien "Voir en ligne" avec l'URL du projet. Si le projet n'a pas de lien, il ne va pas créer de lien.
 
 //
+
+**Prompt :** "Maintenant, je souhaite rendre les carte project cliquable. Une fois que c'est cliquer, ouvre une modale pop-up avec le tableau dans .json"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a rendu les cartes de projet cliquables et a ajouté une modale pop-up qui s'ouvre avec les informations du projet à partir du fichier .json.
+
+**Ce que j'ai compris :** L'IA a ajouté le code javacript dans main.js pour rendre les modales pop-up fonctionnelles. Il a ajouté un événement "click" sur chaque carte de projet pour ouvrir la modale avec les informations correspondantes du projet à partir du fichier projets.json. De plus, il a ajouté une section html pour afficher la modale dans index.html et un style pour la modale dans modale.css.
+
+//
+
+**Prompt :** "maintenant enleve le code qui permet de rendre les pop up modales fonctionnelles de main.js dans modale.js"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a déplacé le code dans modale.js
+
+**Ce que j'ai compris :** Le code est encore pareil, il a simplement déplacé le code de main.js vers modale.js pour séparer les fonctionnalités de la modale pop-up.
+
+//
+
+**Prompt :** "Maintenant que la modale est faite, il n'est plus nécessaire d'afficher le contenu du .json dans le html. La modale le fera à sa place. Alors, utlise cette image pour lieu donner cette nouvelle apparence à chacun des projets."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a modifié l'apparence des cartes de projet basé sur l'image fournie et les modales pop-up affichent désormais le contenu du fichier .json lorsqu'une carte de projet est cliquée.
+
+**Ce que j'ai compris :** Ce prompt a changé l'apparence des cartes de projet basé sur l'image fournie. L'IA a retiré le code jacscript qui affichait le contenu du fichier .json dans le html. Maintenant, la modale pop-up affiche le contenu du fichier .json lorsqu'une carte de projet est cliquée.

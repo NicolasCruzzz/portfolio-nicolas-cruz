@@ -2,4 +2,20 @@
   border: 5px solid var(--border);
   box-shadow: 10px 10px 10px 0 var(--shadow);
   border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 70px;
+}
+
+.icone-cercle {
+  display: block;
+  flex: 0 0 24px;
+  width: 24px;
+  height: 24px;
+}
+
+.carte-projet h3 {
+  margin: 0;
 }

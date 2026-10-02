@@ -1,10 +1,8 @@
 export function createProjectCard(project) {
   return `
-		<article class="carte-projet">
+		<article class="carte-projet" data-project-id="${project.id}" tabindex="0" role="button" aria-label="Voir les détails de ${project.name}">
+			<img class="icone-cercle" src="assets/icones/cercle.png" alt="" />
 			<h3>${project.name}</h3>
-			<p>${project.description}</p>
-			${project.video ? `<a href="${project.video}" target="_blank" rel="noreferrer">Voir la vidéo</a>` : ''}
-			${project.link ? `<a href="${project.link}" target="_blank" rel="noopener noreferrer">Visiter le site</a>` : ''}
 		</article>
 	`;
 }

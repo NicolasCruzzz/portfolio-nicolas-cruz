@@ -1,5 +1,6 @@
 import { loadProjects } from './data.js';
 import { createProjectCard } from './composants/carte-projet.js';
+import { setupProjectModal } from './composants/modale.js';
 
 document.addEventListener('DOMContentLoaded', init);
 
@@ -20,6 +21,8 @@ async function init() {
     grid.innerHTML = projects
       .map((project) => createProjectCard(project))
       .join('');
+
+    setupProjectModal(projects);
 
     projects.forEach((project) => {
       console.log(project.name);

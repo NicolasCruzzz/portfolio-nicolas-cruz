@@ -290,7 +290,14 @@
     </footer>
 
     <!-- Conteneur de la Modale (sert de boîte de dialogue flottante pour afficher les projets)-->
-    <section id="conteneur-modale" class="conteneur-modale" hidden>
+    <section
+      id="conteneur-modale"
+      class="conteneur-modale"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="titre-modale"
+      hidden
+    >
       <div class="contenu-modale">
         <button
           id="fermer-modale"
