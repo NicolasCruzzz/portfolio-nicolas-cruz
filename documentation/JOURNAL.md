@@ -714,3 +714,23 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 **Résultat :** L'IA a ajouté un style pour que les icônes dans la section contact changent de couleur en mode sombre.
 
 **Ce que j'ai compris :** L'IA a choisi le style de mode sombre avec un nouveau style assigné à chacune des icônes dans la section contact.
+
+//
+
+**Prompt :** "give more space to thw image a props, make a breakpoint if needed"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a modifié les dimensions de l'image choisie.
+
+**Ce que j'ai compris :** L'IA a modifié ses styles dans plusieurs dimensions d'écrans pour donner plus d'espace à l'image.
+
+//
+
+**Prompt :** "make ONLY the links in contact #EF233C"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté un style pour que les liens dans la section contact soient de couleur #EF233C.
+
+**Ce que j'ai compris :** L'IA a ajouté un style pour que les liens dans la section contact soient de couleur #EF233C.

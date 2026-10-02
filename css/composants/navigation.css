@@ -6,6 +6,9 @@ nav {
   padding: 1.25rem 2rem;
 }
 
+.logo img {
+  border-radius: 5px;
+}
 nav .logo {
   display: inline-block;
   display: flex;

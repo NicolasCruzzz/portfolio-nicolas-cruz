@@ -40,6 +40,14 @@ footer p {
   margin: 0;
 }
 
+.titre-hero {
+  text-align: center;
+}
+
+.texte-hero {
+  text-align: center;
+}
+
 iframe {
   border-radius: 5px;
 }
@@ -178,9 +186,10 @@ button.fleche {
 }
 
 .image-apropos {
-  width: 160px;
-  height: 160px;
+  width: 400px;
+  height: 200px;
   max-width: 100%;
+  max-height: 100%;
   overflow: hidden;
 }
 
@@ -228,6 +237,11 @@ button.fleche {
   gap: 0.5rem;
   min-width: 0;
   text-align: center;
+  color: #ef233c;
+}
+
+.element-contact:visited {
+  color: #ef233c;
 }
 
 @media (max-width: 900px) {
@@ -247,6 +261,11 @@ button.fleche {
 
   .contenu-apropos {
     gap: 1.5rem;
+  }
+
+  .image-apropos {
+    width: 400px;
+    height: 400px;
   }
 }
 
@@ -274,6 +293,8 @@ button.fleche {
   }
 
   .image-apropos {
+    width: 400px;
+    height: 400px;
     align-self: center;
   }
 
