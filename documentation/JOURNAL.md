@@ -783,4 +783,28 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 **Résultat :** L'IA a modifié l'apparence des cartes de projet basé sur l'image fournie et les modales pop-up affichent désormais le contenu du fichier .json lorsqu'une carte de projet est cliquée.
 
-**Ce que j'ai compris :** Ce prompt a changé l'apparence des cartes de projet basé sur l'image fournie. L'IA a retiré le code jacscript qui affichait le contenu du fichier .json dans le html. Maintenant, la modale pop-up affiche le contenu du fichier .json lorsqu'une carte de projet est cliquée.
+**Ce que j'ai compris :** Ce prompt a changé l'apparence des cartes de projet basé sur l'image fournie. L'IA a retiré le code javascript qui affichait le contenu du fichier .json dans le html. Maintenant, la modale pop-up affiche le contenu du fichier .json lorsqu'une carte de projet est cliquée.
+
+**5 questions du premier bloc du projet 1/3✅**
+
+1. <em>Qu'est-ce que j'ai accompli depuis le dernier bloc?</em>
+
+   J'ai fait
+
+2. <em>Quelle a été ma principale difficulté et comment je l'ai surmontée?</em>
+
+   Ma principale difficulté était de faire le tout rapidement. J'ai justifié mon apprentissage dans le journal, mais il me manque les commentaires à travers le code de tout le projet.
+
+3. <em>Qu'est-ce que j'ai appris que je ne savais pas avant?</em>
+
+   J'ai appris à faire des modales pop-up et à les rendre fonctionnelles. J'ai également appris à faire un tableau .json. J'ai appris des nouveaux codes javascript.
+
+4. <em>Quelle est ma prochaine étape concrète?</em>
+
+   Complété le contenu manquant dans les modales pop-up et faire les animations du one-pager.
+
+5. <em>Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?</em>
+
+   Oui, j'ai utilisé l'IA pour me donner des idées sans copier le contenu généré. Les polices, la palette de couleur et le placement des éléments m'appartiennent. J'ai appris à utiliser Figma make et Stitch de Google.
+
+//
