@@ -589,6 +589,6 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 **Outil :** Copilot
 
-**Résultat :** L'IA a 
+**Résultat :** L'IA a
 
 **Ce que j'ai compris :** L'IA a
