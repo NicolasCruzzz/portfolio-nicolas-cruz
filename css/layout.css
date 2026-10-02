@@ -72,6 +72,13 @@ footer p {
   object-fit: contain;
 }
 
+.element-contact img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
 .contenu-apropos {
   display: flex;
   align-items: flex-start;

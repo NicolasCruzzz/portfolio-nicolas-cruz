@@ -585,10 +585,30 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 //
 
+**Prompt :** "make the contact pictures the same size, but also, make them the same size as the pictures in .liste-logiciels"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a rapetissé les images dans la section contact pour qu'elles soient de la même taille que les images dans la section logiciels connus.
+
+**Ce que j'ai compris :** L'IA a ajusté et a ajouté un style le même style que les images dans .liste-logiciels.
+
+//
+
+**Prompt :** "fix the nav color in dark mode for this "nav ul li a" It is onyx we can't see it. It has to be mist."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté un style pour que le texte dans nav soit visible en mode sombre qui rend le texte en mode clair invisble avec le background clair.
+
+**Ce que j'ai compris :** L'IA a crée un style pour le texte dans "body.dark-mode nav ul li a" en mode sombre. Il a mis la couleur mist pour que le texte soit visible. Il faut que j'inverse la couleur de base par #D8DBE2 et le nouveau style par var(--onyx). De cette façon, le texte dans nav sera visible en mode clair et sombre.
+
+//
+
 **Prompt :** "
 
 **Outil :** Copilot
 
 **Résultat :** L'IA a
 
-**Ce que j'ai compris :** L'IA a
+**Ce que j'ai compris :** L
