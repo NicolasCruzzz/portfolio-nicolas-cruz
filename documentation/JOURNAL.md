@@ -585,6 +585,8 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 //
 
+### <em>2026-10-02</em>
+
 **Prompt :** "make the contact pictures the same size, but also, make them the same size as the pictures in .liste-logiciels"
 
 **Outil :** Copilot
@@ -662,3 +664,53 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 **Résultat :** L'IA a enlevé les marges inutiles entre les sections.
 
 **Ce que j'ai compris :** L'IA a le style de section pour en arriver au résultat.
+
+//
+
+**Prompt :** "ajoute l'image src="assets/icones/fleche_rouge_droite.png" pour la flèche droite du carrousel des logiciels et ajoute l'image src="assets/icones/fleche_rouge_gauche.png" pour la flèche gauche du carrousel des logiciels"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté les images pour les flèches du carrousel des logiciels.
+
+**Ce que j'ai compris :** L'IA a ajouté les images pour les flèches du carrousel des logiciels. Il a ajouté un style pour que les flèches soient positionnées correctement dans le carrousel.
+
+//
+
+**Prompt :** "when I turn on dark mode change the fleche droite and fleche gauche background color to #0C090D"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté un style pour que le fond du bouton avec les flèches du carrousel changent de couleur en mode sombre.
+
+**Ce que j'ai compris :** L'IA a simplement selectionné un style du dark mode pour le bouton avec les flèches du carrousel. Il a mis la couleur de fond à #0C090D.
+
+//
+
+**Prompt :** "aligne la section contact comme dans cette image avec flexbox"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté un style pour aligner la section contact avec flexbox.
+
+**Ce que j'ai compris :** L'IA a paramétré plusieurs styles pour aligner la section contact avec flexbox.
+
+//
+
+**Prompt :** "donne ce style à chacun des boutons. Le bouton droit a un drop shadow de 10px 10px 10px 0 #EF233C, Le bouton gauche droit a un drop shadow de 10px 10px 10px 0 #145C9E. Les deux ont la même variable que le fond de la page web."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a changé le style des boutons du hero.
+
+**Ce que j'ai compris :** L'IA a écrit mes paramètres pour le style de chaque bouton respectif.
+
+//
+
+**Prompt :** "Lorsque le dark mode est activé, change les icones dans la section contact par leur version "dark"."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté un style pour que les icônes dans la section contact changent de couleur en mode sombre.
+
+**Ce que j'ai compris :** L'IA a choisi le style de mode sombre avec un nouveau style assigné à chacune des icônes dans la section contact.

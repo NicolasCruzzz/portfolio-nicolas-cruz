@@ -44,6 +44,36 @@ iframe {
   border-radius: 5px;
 }
 
+.boutons-accueil {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 180px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background: var(--bg);
+  text-decoration: none;
+}
+
+.btn-bleu {
+  color: #145c9e;
+  border: 2px solid #145c9e;
+  box-shadow: 10px 10px 10px 0 #145c9e;
+}
+
+.btn-rouge {
+  color: #ef233c;
+  border: 2px solid #ef233c;
+  box-shadow: 10px 10px 10px 0 #ef233c;
+}
+
 .carrousel-logiciels {
   display: flex;
   align-items: center;
@@ -84,6 +114,43 @@ iframe {
   object-fit: contain;
 }
 
+body.dark-mode .icone-linkedin {
+  content: url('../assets/icones/linkedin_logo_dark.png');
+}
+
+body.dark-mode .icone-github {
+  content: url('../assets/icones/github_logo_dark.png');
+}
+
+body.dark-mode .icone-email {
+  content: url('../assets/icones/email_logo_dark.png');
+}
+
+.fleche.fleche-gauche,
+.fleche.fleche-droite {
+  background: var(--mist);
+  border: none;
+}
+
+body.dark-mode .fleche.fleche-gauche,
+body.dark-mode .fleche.fleche-droite {
+  background: #0c090d;
+}
+
+.fleche img {
+  display: block;
+  width: 25px;
+  height: 110px;
+  object-fit: contain;
+}
+
+button.fleche {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
 .contenu-apropos {
   display: flex;
   align-items: flex-start;
@@ -107,7 +174,7 @@ iframe {
 .carrousel-logiciels {
   border: 5px solid var(--border);
   border-radius: 10px;
-  box-shadow: 4px 4px 4px 0 var(--shadow);
+  box-shadow: 10px 10px 10px 0 var(--shadow);
 }
 
 .image-apropos {
@@ -125,7 +192,7 @@ iframe {
 }
 
 .carte-projet {
-  box-shadow: 4px 4px 4px 0 var(--shadow);
+  box-shadow: 10px 10px 10px 0 var(--shadow);
 }
 
 .conteneur-projets {
@@ -140,6 +207,27 @@ iframe {
   max-width: 100%;
   aspect-ratio: 16 / 9;
   height: auto;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+.liens-contact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.element-contact {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -174,6 +262,11 @@ iframe {
 
   .conteneur-projets {
     grid-template-columns: 1fr;
+  }
+
+  .liens-contact {
+    flex-direction: column;
+    align-items: center;
   }
 
   .contenu-apropos {
