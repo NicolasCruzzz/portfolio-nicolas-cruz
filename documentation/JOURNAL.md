@@ -789,22 +789,22 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 1. <em>Qu'est-ce que j'ai accompli depuis le dernier bloc?</em>
 
-   J'ai fait
+   J'ai programé le site web de mon portofolio.
 
 2. <em>Quelle a été ma principale difficulté et comment je l'ai surmontée?</em>
 
-   Ma principale difficulté était de faire le tout rapidement. J'ai justifié mon apprentissage dans le journal, mais il me manque les commentaires à travers le code de tout le projet.
+   Ma principale difficulté était de faire le tout rapidement. J'ai justifié mon apprentissage dans le journal, mais il me manque les commentaires à travers le code de tout le projet. Cependant, j'ai surmonté ma difficulté utilisant l'outil AI pour avancer rapidement tout en gardeant le contrôle de ma compréhension.
 
 3. <em>Qu'est-ce que j'ai appris que je ne savais pas avant?</em>
 
-   J'ai appris à faire des modales pop-up et à les rendre fonctionnelles. J'ai également appris à faire un tableau .json. J'ai appris des nouveaux codes javascript.
+   J'ai appris à faire des modales pop-up et à les rendre fonctionnelles. J'ai appris à faire un tableau .json. J'ai également appris de nouveaux codes javascript.
 
 4. <em>Quelle est ma prochaine étape concrète?</em>
 
-   Complété le contenu manquant dans les modales pop-up et faire les animations du one-pager.
+   Complété le contenu manquant dans les modales pop-up, faire les animations du one-pager et faire un polissage final. 
 
 5. <em>Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?</em>
 
-   Oui, j'ai utilisé l'IA pour me donner des idées sans copier le contenu généré. Les polices, la palette de couleur et le placement des éléments m'appartiennent. J'ai appris à utiliser Figma make et Stitch de Google.
+   Oui, j'ai utilisé l'IA pour créer le portofolio par section afin de comprendre les changements rapidement exécutés par l'IA.
 
 //
