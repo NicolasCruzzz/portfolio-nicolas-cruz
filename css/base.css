@@ -1,26 +1,17 @@
 @font-face {
   font-family: 'BloggerSans';
-  src:
-    url('assets\fonts\Blogger_Sans.otf') format('otf'),
-    url('assets\fonts\Blogger_Sans-bold.otf') format('otf'),
-    url('') format('otf'),
-    url('') format('otf');
+  src: url('../assets/fonts/Blogger_Sans-Bold.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'SNPro';
-  src:
-    url('') format(''),
-    url('') format('');
+  src: url('../assets/fonts/SNPro-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
 }
 
 @font-face {
   font-family: 'AveriaLibre';
-  src:
-    url('') format(''),
-    url('') format(''),
-    url('') format(''),
-    url('') format('');
+  src: url('../assets/fonts/AveriaLibre-Regular.ttf') format('truetype');
 }
 
 * {
@@ -32,16 +23,21 @@ html {
 }
 body {
   margin: 0;
-  font-family:
-    system-ui,
-    Segoe UI,
-    Roboto,
-    Helvetica,
-    Arial;
+  font-family: 'SNPro', sans-serif;
   background: var(--bg);
   color: var(--text);
   overflow-x: hidden;
 }
+h1,
+h2,
+h3 {
+  font-family: 'BloggerSans', sans-serif;
+}
+
+.etiquette {
+  font-family: 'AveriaLibre', sans-serif;
+}
+
 a {
   color: #145c9e;
 }

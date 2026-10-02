@@ -1,1 +1,5 @@
-.carte-projet{border:1px solid var(--card-border);padding:1rem;border-radius:8px}
+.carte-projet {
+  border: 5px solid var(--border);
+  box-shadow: 4px 4px 4px 0 var(--shadow);
+  border-radius: 5px;
+}

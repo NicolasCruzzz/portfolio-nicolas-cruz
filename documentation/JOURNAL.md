@@ -645,10 +645,20 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 //
 
-**Prompt :** "
+**Prompt :** "Ajoute le font assets/fonts/Blogger_Sans.otf pour les titres. Ajoute le font assets/fonts/SNPro-VariableFont_wght.ttf pour les textes. Ajoute le font assets/fonts/AveriaLibre-Regular.ttf pour les étiquettes"
 
 **Outil :** Copilot
 
-**Résultat :** L'IA a
+**Résultat :** L'IA a ajouté les polices demandées aux titres, textes et étiquettes.
 
-**Ce que j'ai compris :** L'IA a
+**Ce que j'ai compris :** L'IA a ajouté Blogger Sans pour les titres, SNPro pour les textes et Averia Libre pour les étiquettes.
+
+//
+
+**Prompt :** "reduit les espaces inécessaires entre chaque section afin de rendre le tout uniforme"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a enlevé les marges inutiles entre les sections.
+
+**Ce que j'ai compris :** L'IA a le style de section pour en arriver au résultat.
