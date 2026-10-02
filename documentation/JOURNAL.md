@@ -349,7 +349,6 @@ Je souhaite qu’elle retienne mon autonomie, mon organisation et ma volonté po
 
 ### <em>2026-09-30</em>
 
-
 **Prompt :** "sépare ce code en suivant l'arboresecence de l'image: async function loadProjects() {
 const response = await fetch('data/projects.json');
 const projects = await response.json();
@@ -360,7 +359,7 @@ async function init() {
 const projects = await loadProjects();
 console.table(projects);
 
-const grid = document.querySelector('.projects__grid');
+const grid = document.querySelector('.projects\_\_grid');
 
 projects.forEach(project => {
 grid.innerHTML += createProjectCard(project);
@@ -373,6 +372,7 @@ console.log(project.title);
 
 function createProjectCard(project) {
 return `
+
 <article class="project-card">
 <img class="project-card__image" src="${project.image}" alt="${project.title}"> //ajouter le contenu de l'attribut alt pour l'image
 <div class="project-card__content">
@@ -389,6 +389,206 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 **Outil :** Copilot
 
-**Résultat :** L'AI a ajouté le javascript à travers 3 fichier javascript. 
+**Résultat :** L'AI a ajouté le javascript à travers 3 fichier javascript.
 
-**Ce que j'ai compris :** Dans data.js, la fonction cherche les données et il les retourne. S'il y a une erreur, un message est affiché. Dans carte-projet.js, le javascript déclare une fonction pour transformer mon projet en HTML et il le retourne pour obtenir l'affichage sur le html. Dans main.js.... (fin de cours à suivre)
+**Ce que j'ai compris :** Dans data.js, la fonction cherche les données et il les retourne. S'il y a une erreur, un message est affiché. Dans carte-projet.js, le javascript déclare une fonction pour transformer mon projet en HTML et il le retourne pour obtenir l'affichage sur le HTML. Dans main.js, le javascript initialise une page web en chargeant et affichant de manière dynamique une grille de cartes de projets en gérant l'activation et le mode sombre.
+
+//
+
+**Prompt :** "contain all the icones inside "liste-logiciels" so it fits inside a row"
+
+**Outil :** Copilot
+
+**Résultat :** L'AI a contenu les icônes dans une ligne.
+
+**Ce que j'ai compris :** L'IA a utilisé flexbox pour contenir les icônes dans une ligne.
+
+//
+
+**Prompt :** "find the missing icones for each software inside "liste-logiciels""
+
+**Outil :** Copilot
+
+**Résultat :** L'AI a trouvé les icônes manquantes pour chaque logiciel dans la liste.
+
+**Ce que j'ai compris :** L'IA a corrigé le mauvais chemin généré dans le code de base.
+
+//
+
+**Prompt :** "ONLY ADD A BORDER AND A CONTAINER WITH A DROP SHADOW WHERE IT IS NECESSARY" +(ajout d'une image qui montre dans quelle balise il faut ajouter un border et un drop shadow)
+
+**Outil :** Copilot
+
+**Résultat :** L'AI a ajouté un border et un drop shadow dans les balises nécessaires.
+
+**Ce que j'ai compris :** L'IA a ajouté un border et un drop shadow dans les balises .conteneur-video,.image-apropos et .carrousel-logiciels.
+
+//
+
+**Prompt :** "make the border size 5px"
+
+**Outil :** Copilot
+
+**Résultat :** L'AI a agrandi les bordures.
+
+**Ce que j'ai compris :** L'IA a ajouter 5px aux bordures dans les balises .conteneur-video,.image-apropos et .carrousel-logiciels.
+
+//
+
+**Prompt :** "ONLY MAKE THE TEXT "#145C9E" (+ajout d'une image qui montre où il faut ajouter un style de couleur bleu dans la page)"
+
+**Outil :** Copilot
+
+**Résultat :** L'AI a fait un style de couleur bleu #145C9E dans la balise .texte-bleu.
+
+**Ce que j'ai compris :** L'IA a ajouté une classe qui donne un style bleu au texte.
+
+//
+
+**Prompt :** "THESE ARE THE COLORS I'LL USE ADD A ROOT WITH THESE COLORS (+ajout d'une image qui montre la palette de couleur en HEX de la page)"
+
+**Outil :** Copilot
+
+**Résultat :** L'AI a ajouté un root avec les couleurs dans le fichier variables.css.
+
+**Ce que j'ai compris :** L'IA a ajouté des variables CSS pour définir les couleurs utilisées dans le projet.
+
+//
+
+**Prompt :** "MAKE A FUNCTIONNAL DARK MODE TOGGLE"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté un mode sombre fonctionnel.
+
+**Ce que j'ai compris :** L'IA a ajouté un code javascript dans main.js pour faire le mode sombre. L'IA a ajouté les couleurs créées dans root dans les styles qui utilisaient des couleurs non réutilisables. De plus, il a adapté la bascule dans le HTML pour que le javscript créé puisse fonctionner.
+
+//
+
+**Prompt :** "Swap the white to black. and nothing more"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA n'a pas changé le code. Il n'a pas écouté.
+
+**Ce que j'ai compris :** L'IA a changé "--card-border: var(--onyx);" Cependant, il n'a pas solutionné le problème de la couleur du texte et du fond. Il a seulement changé la couleur de la bordure des cartes.
+
+//
+
+**Prompt :** "When I am in light mode I use #D8DBE2 for the background. I am in light mode I use #0C090D for text and titles exept for the blue parts I told you to color. When I turn on dark mode, make sure only #D8DBE2 and #0C090D swaps"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a inversé les couleurs de fond et de texte lors du passage en mode sombre.
+
+**Ce que j'ai compris :** L'IA a changé les couleurs initiales créées pour le fond et le texte. De cette façon, elles s'inversent correctement entre le mode clair et le mode sombre.
+
+//
+
+**Prompt :** "make sure the link color, the text I told you to be blue stay this hex blue: #145C9E"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a maintenu la couleur bleue #145C9E pour les liens et le texte même dans le mode sombre.
+
+**Ce que j'ai compris :** L'IA a remplacé le style pour tous les textes bleus et les liens. De cette façon, la couleur bleue ne change pas entre le mode clair et le mode sombre. Cependant, il la couleur du texte dans nav est bleu. Il faut que je corrige la couleur dans le fichier navigation.css pour que la couleur du texte dans nav soit #D8DBE2 en mode clair et #0C090D en mode sombre.
+
+//
+
+**Prompt :** "Only keep the nav text #0C090D"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté la couleur #0C090D pour le texte dans nav uniquement.
+
+**Ce que j'ai compris :** L'IA a une couleur exlusive pour le texte dans nav.
+
+//
+
+**Prompt :** "make the footer like this + (ajout d'une image qui montre le design du pied de page)"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a créé les styles nécessaires pour le pied de page dans layout.css.
+
+**Ce que j'ai compris :** L'IA a créer le code nécessaire dans layout.css pour le pied de page.
+
+//
+
+**Prompt :** "contain the image"assets\images\cloture.jpg" so it fit well the apropos container"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a adapté l'image cloture.jpg correctement au conteneur.
+
+**Ce que j'ai compris :** L'IA a ajusté la taille de l'image cloture.jpg pour qu'elle s'adapte correctement au conteneur.
+
+//
+
+**Prompt :** "make it really small but bigger than 3 icons"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a rendu l'image cloture.jpg vraiment petite.
+
+**Ce que j'ai compris :** L'IA a a réduit et limité les dimensions de l'image cloture.jpg.
+
+//
+
+**Prompt :** "Now using flex box make sure it is no the right side of the tags and the description. Keep the logiciels connus section that way only fix the A propos section"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a utilisé flex box pour positionner l'image à droite des tags et de la description.
+
+**Ce que j'ai compris :** L'IA a ajouté une clase .contenu-apropos et .apropos-gauche pour contenir les balises de la section à propos. De cette façon, l'image cloture.jpg est à droite des tags et de la description.
+
+//
+
+**Prompt :** "remove the website overflow. stop at the footer. Don't go over that"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajusté le site web pour qu'il ne dépasse pas le pied de page.
+
+**Ce que j'ai compris :** L'IA a ajouté "overflow-x: hidden;" dans le base.css pour que le site web ne dépasse pas le pied de page.
+
+//
+
+**Prompt :** "Make sure the space is even between each section. Also, make the whole body breathable. Add margins"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté des marges pour que le site web soit plus aéré.
+
+**Ce que j'ai compris :** L'IA a ajouté des style pour la balise main. En plus, il a fait en sorte que chaque si main est plus grand que section il va ajouter un espace entre chaque section. Et le last-child de section n'aura pas de marge en bas.
+
+//
+
+**Prompt :** "Remake the overflow. Make sure the scroll dosen't go past the footer in any viewwidth"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a essayé de corriger le problème de l'overflow. Cependant, il n'a pas réussi à corriger le problème.
+
+**Ce que j'ai compris :** L'IA a enlevé overflow-y: hidden; dans la classe .liste-logiciels.
+
+//
+
+**Prompt :** "Make the dark mode moon image on the nav very small contain it inside the circular border."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a corrigé la taille de l'image dans l'interrupteur du mode sombre.
+
+**Ce que j'ai compris :** J'ai compris que l'image dans le nav était vraiment étirée et il causait le overflow dans le site web. L'IA a ajouté un style pour que l'image soit contenue dans le cercle de l'interrupteur.
+
+//
+
+**Prompt :** "
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a 
+
+**Ce que j'ai compris :** L'IA a
