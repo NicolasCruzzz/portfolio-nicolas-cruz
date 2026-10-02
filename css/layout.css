@@ -191,6 +191,7 @@ button.fleche {
   max-width: 100%;
   max-height: 100%;
   overflow: hidden;
+  filter: saturate(0);
 }
 
 .image-apropos img {

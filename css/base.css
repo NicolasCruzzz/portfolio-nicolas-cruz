@@ -13,40 +13,51 @@
   font-family: 'AveriaLibre';
   src: url('../assets/fonts/AveriaLibre-Regular.ttf') format('truetype');
 }
+/* Chargement des polices */
 
 * {
   box-sizing: border-box;
 }
+/* Style appliqué à tous les éléments */
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+/* cache le overflow et permet un scroll smooth quand on clique sur un lien du nav */
+
 body {
   margin: 0;
   font-family: 'SNPro', sans-serif;
   background: var(--bg);
   color: var(--text);
-  overflow-x: hidden;
 }
+/* Style appliqué à tous les éléments du body */
+
 h1,
 h2,
 h3 {
   font-family: 'BloggerSans', sans-serif;
   text-align: center;
 }
+/* Style appliqué à plusieurs balises de titrage*/
 
 .etiquette {
   font-family: 'AveriaLibre', sans-serif;
 }
+/* font appliquée aux éléments avec la classe "etiquette" */
 
 a {
   color: #145c9e;
 }
+/* couleur appliqueé à tous les balises <a> */
+
 .texte-bleu {
   color: #145c9e;
 }
+/* Style appliqué aux éléments avec la classe "texte-bleu" */
 
-/* anchor offset when using fixed header */
+/* Style appliqué à la navigation */
 header {
   position: sticky;
   top: 0;

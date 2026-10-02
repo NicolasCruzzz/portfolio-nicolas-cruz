@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', init);
 
 async function init() {
   setupDarkMode();
+  setupMobileMenu();
 
   try {
     const projects = await loadProjects();
@@ -26,6 +27,33 @@ async function init() {
   } catch (error) {
     console.error(error);
   }
+}
+
+function setupMobileMenu() {
+  const toggle = document.querySelector('#menu-toggle');
+  const nav = toggle?.closest('nav');
+  const links = nav?.querySelectorAll('a[href^="#"]');
+
+  if (!toggle || !nav) {
+    return;
+  }
+
+  toggle.addEventListener('click', () => {
+    const isOpen = nav.classList.toggle('menu-ouvert');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+    toggle.setAttribute(
+      'aria-label',
+      isOpen ? 'Fermer le menu' : 'Ouvrir le menu',
+    );
+  });
+
+  links?.forEach((link) => {
+    link.addEventListener('click', () => {
+      nav.classList.remove('menu-ouvert');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Ouvrir le menu');
+    });
+  });
 }
 
 function setupDarkMode() {

@@ -734,3 +734,25 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 **Résultat :** L'IA a ajouté un style pour que les liens dans la section contact soient de couleur #EF233C.
 
 **Ce que j'ai compris :** L'IA a ajouté un style pour que les liens dans la section contact soient de couleur #EF233C.
+
+//
+
+**Prompt :** "fait une nav mobile lorsqu'on est en tablette et en mobile +(ajout image du design du nav mobile)"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté un menu mobile pour la navigation lorsqu'on est en tablette et en mobile.
+
+**Ce que j'ai compris :** L'IA a ajouté un bouton HTML avec trois span pour que le bouton ait 3 barres. Ensuite, l'IA a ajouté un style pour que le bouton soit positionné correctement dans le nav et pour qu'il ait l'esthétique désirée. En plus, de l'adaption en responsive, l'IA a ajouté un code javscript qui permet de basculer le menu entre "ouvert" et "fermé".
+
+//
+
+**Prompt :** "Ajoute ce lien au projet "site-web-de-timonier": https://timonierinc.ca/ Assure toi qu'il est ajouté dans le html en json et par la suite il peut être ouvert."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a simplement rendu le lien fonctionnel dans le fichier projets.json.
+
+**Ce que j'ai compris :** Dans la fonction "function createProjectCard", l'IA a ajouté un condition pour vérifier si le projet a un lien en ligne dans la classe "carte-projet". Si le projet a un lien, il va créer un lien "Voir en ligne" avec l'URL du projet. Si le projet n'a pas de lien, il ne va pas créer de lien.
+
+//
