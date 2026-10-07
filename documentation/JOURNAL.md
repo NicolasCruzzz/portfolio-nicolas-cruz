@@ -831,7 +831,7 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 //
 
-**Prompt :** align "liste-logiciels" in the center of the container "conteneur-logiciels". Also, there are to many software in bigger viewport (other than tablet and mobile). Make sure you add more space between the softwares (show around 5 to 7 softwares)"
+**Prompt :** "align "liste-logiciels" in the center of the container "conteneur-logiciels". Also, there are to many software in bigger viewport (other than tablet and mobile). Make sure you add more space between the softwares (show around 5 to 7 softwares)"
 
 **Outil :** Copilot
 
@@ -840,3 +840,25 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 **Ce que j'ai compris :** Il a ajouté un style pour la classe css du container. De plus, il a ajouté un espacement flexible qui étendre les élément dépendament de la fenêtre d'affichage.
 
 //
+
+**Prompt :** "when ".carte-projet " is hovered. I want to swap ".icone-cercle:hover" content: url(../../assets/icones/cercle.png) to this : content: url(../../assets/icones/cercle_hovered.png)"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a changé la couleur du cercle dans les projets lors du survol.
+
+**Ce que j'ai compris :** Le style css est spécifiquement appliqué sur l'icone de cercle lors du survol sur le parent ".carte-projet"
+
+//
+
+**Prompt :** "make sure when I hover in light mode I use var(--onyx) or swap the image to the noir alternative in the icones folder. when I am in dark mode make sure I use var(--mist) or swap the image to the blanc alternative in icones folder."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a adapté les couleurs du survol du mode clair.
+
+
+**Ce que j'ai compris :** Les couleurs du survol ont été ajouté en mode clair.
+
+//
+

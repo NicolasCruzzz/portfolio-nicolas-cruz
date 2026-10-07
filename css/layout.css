@@ -76,10 +76,34 @@ iframe {
   box-shadow: 10px 10px 10px 0 #145c9e;
 }
 
+.btn-bleu:hover {
+  color: var(--onyx);
+  border: 2px solid var(--onyx);
+  box-shadow: 10px 10px 10px 0 var(--onyx);
+}
+
+body.dark-mode .btn-bleu:hover {
+  color: var(--mist);
+  border: 2px solid var(--mist);
+  box-shadow: 10px 10px 10px 0 var(--mist);
+}
+
 .btn-rouge {
   color: #ef233c;
   border: 2px solid #ef233c;
   box-shadow: 10px 10px 10px 0 #ef233c;
+}
+
+.btn-rouge:hover {
+  color: var(--onyx);
+  border: 2px solid var(--onyx);
+  box-shadow: 10px 10px 10px 0 var(--onyx);
+}
+
+body.dark-mode .btn-rouge:hover {
+  color: var(--mist);
+  border: 2px solid var(--mist);
+  box-shadow: 10px 10px 10px 0 var(--mist);
 }
 
 .conteneur-logiciels {
@@ -170,8 +194,6 @@ body.dark-mode .fleche.fleche-droite {
 
 .fleche img {
   display: block;
-  width: 25px;
-  height: 110px;
   object-fit: contain;
 }
 
@@ -181,6 +203,25 @@ button.fleche {
   justify-content: center;
   cursor: pointer;
 }
+
+.fleche.fleche-gauche:hover {
+  content: url(../assets/icones/fleche_noir_gauche.png);
+}
+
+.fleche.fleche-droite:hover {
+  content: url(../assets/icones/fleche_noir_droite.png);
+}
+
+
+body.dark-mode .fleche.fleche-gauche:hover {
+  content: url(../assets/icones/fleche_blanche_gauche.png);
+}
+
+
+body.dark-mode .fleche.fleche-droite:hover {
+  content: url(../assets/icones/fleche_blanche_droite.png);
+}
+
 
 button.fleche:disabled {
   opacity: 0.35;
@@ -267,6 +308,14 @@ button.fleche:disabled {
 
 .element-contact:visited {
   color: #ef233c;
+}
+
+.element-contact:hover{
+  color: var(--onyx);
+}
+
+body.dark-mode .element-contact:hover{
+  color: var(--mist);
 }
 
 @media (max-width: 900px) {
