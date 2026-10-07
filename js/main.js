@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', init);
 async function init() {
   setupDarkMode();
   setupMobileMenu();
+  setupSoftwareCarousel();
 
   try {
     const projects = await loadProjects();
@@ -94,4 +95,49 @@ function applyDarkMode(enabled, toggle) {
       ? 'Icône pour activer le mode clair'
       : 'Icône pour activer le mode sombre';
   }
+}
+
+function setupSoftwareCarousel() {
+  const carousel = document.querySelector('.carrousel-logiciels');
+  const list = carousel?.querySelector('.liste-logiciels');
+  const previousButton = carousel?.querySelector('.fleche-gauche');
+  const nextButton = carousel?.querySelector('.fleche-droite');
+
+  if (!carousel || !list || !previousButton || !nextButton) {
+    return;
+  }
+
+  const updateButtons = () => {
+    const maxScrollLeft = list.scrollWidth - list.clientWidth;
+    const atStart = list.scrollLeft <= 0;
+    const atEnd = list.scrollLeft >= maxScrollLeft - 1;
+
+    previousButton.disabled = atStart;
+    nextButton.disabled = atEnd;
+  };
+
+  const getScrollDistance = () => {
+    const firstItem = list.querySelector('.element-logiciel');
+
+    if (!firstItem) {
+      return list.clientWidth;
+    }
+
+    const itemWidth = firstItem.getBoundingClientRect().width;
+    const gap = parseFloat(getComputedStyle(list).gap || '0');
+
+    return itemWidth + gap;
+  };
+
+  previousButton.addEventListener('click', () => {
+    list.scrollBy({ left: -getScrollDistance(), behavior: 'smooth' });
+  });
+
+  nextButton.addEventListener('click', () => {
+    list.scrollBy({ left: getScrollDistance(), behavior: 'smooth' });
+  });
+
+  list.addEventListener('scroll', updateButtons);
+  window.addEventListener('resize', updateButtons);
+  updateButtons();
 }

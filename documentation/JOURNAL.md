@@ -808,3 +808,35 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
    Oui, j'ai utilisé l'IA pour créer le portofolio par section afin de comprendre les changements rapidement exécutés par l'IA.
 
 //
+
+### <em>2026-10-07</em>
+
+**Prompt :** "I want to make an interactive carousel that I can control from left to right i with the "fleche_rouge" for "liste-logiciels"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a créer le un code javascript pour rendre la liste de logiciels interactives de gauche à droite
+
+**Ce que j'ai compris :** J'ai déjà la structure html et css. Alors, l'IA a créer une fonction javascript qui associe les classes css pour pouvoir les rendre interactives. Il emploi des propriétés qui modifient le scroll avec les boutons et les éléments dans la listes de logiciels.
+
+//
+
+**Prompt :** "In smaller viewport (like tablet and mobile) the "liste-logiciels" is not placed correctly. I don't dosen't take all the space and it shows all the softwares in the list. Make sure it only shows a few softwares (like 3 or 5) depending the view port"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajusté l'affichage en tablette et en mobile.
+
+**Ce que j'ai compris :** Il a ajouté un autre média queria avec une largeur minmimal qui permet d'exécuté les styles de la liste de logiciels spécifiquement dans les fenêtres d'affichage plus petites(tablette et mobile).
+
+//
+
+**Prompt :** align "liste-logiciels" in the center of the container "conteneur-logiciels". Also, there are to many software in bigger viewport (other than tablet and mobile). Make sure you add more space between the softwares (show around 5 to 7 softwares)"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a centré la liste de logiciels au centre du container de logiciels. De plus, il a ajusté l'espacement entre les logiciels en grand écran.
+
+**Ce que j'ai compris :** Il a ajouté un style pour la classe css du container. De plus, il a ajouté un espacement flexible qui étendre les élément dépendament de la fenêtre d'affichage.
+
+//

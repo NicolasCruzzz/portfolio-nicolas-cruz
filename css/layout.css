@@ -82,10 +82,24 @@ iframe {
   box-shadow: 10px 10px 10px 0 #ef233c;
 }
 
+.conteneur-logiciels {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.conteneur-logiciels h3 {
+  text-align: center;
+}
+
 .carrousel-logiciels {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
   min-width: 0;
 }
 
@@ -93,19 +107,28 @@ iframe {
   display: flex;
   flex: 1 1 auto;
   flex-wrap: nowrap;
-  gap: 1rem;
+  gap: 1.25rem;
   min-width: 0;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
   padding: 0.5rem;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+
+.liste-logiciels::-webkit-scrollbar {
+  display: none;
 }
 
 .element-logiciel {
-  flex: 0 0 90px;
+  flex: 0 0 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
   text-align: center;
+  scroll-snap-align: start;
 }
 
 .element-logiciel img {
@@ -157,6 +180,11 @@ button.fleche {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+button.fleche:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
 }
 
 .contenu-apropos {
@@ -310,7 +338,7 @@ button.fleche {
   }
 
   .element-logiciel {
-    flex: 1 1 0;
+    flex: 0 0 calc((100% - 0.5rem) / 3);
     min-width: 0;
     gap: 0.25rem;
   }
@@ -324,5 +352,15 @@ button.fleche {
   .element-logiciel span {
     font-size: 0.65rem;
     overflow-wrap: anywhere;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .liste-logiciels {
+    gap: 0.75rem;
+  }
+
+  .element-logiciel {
+    flex: 0 0 calc((100% - 3rem) / 5);
   }
 }
