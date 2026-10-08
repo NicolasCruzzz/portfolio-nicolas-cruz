@@ -785,7 +785,7 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 **Ce que j'ai compris :** Ce prompt a changé l'apparence des cartes de projet basé sur l'image fournie. L'IA a retiré le code javascript qui affichait le contenu du fichier .json dans le html. Maintenant, la modale pop-up affiche le contenu du fichier .json lorsqu'une carte de projet est cliquée.
 
-**5 questions du premier bloc du projet 1/3✅**
+**5 questions du premier bloc du projet 2/3✅**
 
 1. <em>Qu'est-ce que j'ai accompli depuis le dernier bloc?</em>
 
@@ -838,6 +838,8 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 **Résultat :** L'IA a centré la liste de logiciels au centre du container de logiciels. De plus, il a ajusté l'espacement entre les logiciels en grand écran.
 
 **Ce que j'ai compris :** Il a ajouté un style pour la classe css du container. De plus, il a ajouté un espacement flexible qui étendre les élément dépendament de la fenêtre d'affichage.
+
+### <em>2026-10-08</em>
 
 //
 
@@ -978,3 +980,29 @@ Timonier https://youtu.be/H2ENSABz-aQ"
 **Résultat :** L'IA a le alt du video showreel 2026
 
 **Ce que j'ai compris :** Il a simplement ajouté "de Nicolas Cruz".
+
+//
+
+**5 questions du premier bloc du projet 3/3✅**
+
+1. <em>Qu'est-ce que j'ai accompli depuis le dernier bloc?</em>
+
+   J'ai corrigé les écarts les plus urgents de la phase de test.
+
+2. <em>Quelle a été ma principale difficulté et comment je l'ai surmontée?</em>
+
+   Ma principale difficulté était de comprendre le javscript, ça m'a pris du temps à anaylyser.
+
+3. <em>Qu'est-ce que j'ai appris que je ne savais pas avant?</em>
+
+   J'ai appris à faire des tests et optimiser mon site web. De plus, je sais commencer adapté un site web pour qu'il soit accessible.
+
+4. <em>Quelle est ma prochaine étape concrète?</em>
+
+  Corriger mes écarts mineurs et ajouter plus d'animations.
+
+5. <em>Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?</em>
+
+   Oui, j'ai utilisé l'IA pour m'aider à créer par segments mon code. Ensuite, j'ai tout documenté dans le journal de bord. J'ai appris à selectionner des classes css dans des fonctions javascript. Je suis désormais plus efficace et à l'aise à modifier le code que l'IA me donne.
+
+//
