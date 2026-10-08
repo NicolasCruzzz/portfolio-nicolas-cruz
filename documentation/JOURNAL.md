@@ -928,3 +928,25 @@ Timonier https://youtu.be/H2ENSABz-aQ"
 **Résultat :** L'IA a ajouté les étiquettes dans les modales des projets 2, 3 et 4 en suivant le design de référence fourni.
 
 **Ce que j'ai compris :** L'AI ajouté les étiquettes dans les modales des projets 2, 3 et 4 au endroit requis du design de référence fourni avec le style css réservé aux étiquettes. Il a ajouté des tags en json et il a modifié le code javascript pour afficher les étiquettes dans les modales des projets 2, 3 et 4.
+
+//
+
+**Prompt :** ".image-apropos a besoin d'un breakpoint resposive dans des écrans plus petit. présentement il ne descend pas avant."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a corrigé la taille d'affichage dans quelques tailles d'écran.
+
+**Ce que j'ai compris :** Il a ajouté un flexbox qui permet de descendre dès que le media query est activé à 900px.
+
+//
+
+**Prompt :** "la liste de logiciels ne fait pas la même longueur qui la section projets. Corrige sa taille pour qu'elle prene toute la place."
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajusté la largeur de la liste de logiciels pour qu'elle prenne toute la largeur de la section projets.
+
+**Ce que j'ai compris :** Il a modifié le CSS pour que la liste de logiciels prene toute la largeur disponible avec max-width: 100%.
+
+//

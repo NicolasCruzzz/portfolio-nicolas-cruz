@@ -147,7 +147,7 @@ body.dark-mode .btn-rouge:hover {
   justify-content: center;
   gap: 1.25rem;
   width: 100%;
-  max-width: 1100px;
+  max-width: 100%;
   margin-inline: auto;
   min-width: 0;
 }
@@ -364,11 +364,13 @@ body.dark-mode .element-contact:hover {
 
   .contenu-apropos {
     gap: 1.5rem;
+    flex-direction: column;
   }
 
   .image-apropos {
     width: 400px;
     height: 400px;
+    align-self: center;
   }
 }
 
@@ -388,7 +390,6 @@ body.dark-mode .element-contact:hover {
   .image-apropos {
     width: 400px;
     height: 400px;
-    align-self: center;
   }
 
   .conteneur-etiquettes {
