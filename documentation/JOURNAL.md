@@ -960,3 +960,13 @@ Timonier https://youtu.be/H2ENSABz-aQ"
 **Ce que j'ai compris :** Il a simplement modifié le nom de la classe du courriel afin de pouvoir le cibler dans le CSS et lui donner un style qui le place sur une nouvelle ligne qui prend 100% de la largeur du conteneur.
 
 //
+
+**Prompt :** "ajoute une animation de fondu(fade in) au scroll dans chaque section sauf accueil"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté une animation de fondu (fade in) au scroll dans chaque section sauf accueil.
+
+**Ce que j'ai compris :** Il a ajouté une fonction javascript qui détecte le scroll et ajoute une classe "visible" aux sections lorsqu'elles entrent dans la vue. Ensuite, il a utilise la classe "visible" qui applique une animation de fondu (fade in) aux sections.
+
+//

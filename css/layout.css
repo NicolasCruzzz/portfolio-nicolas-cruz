@@ -24,6 +24,19 @@ main > section:last-child {
   margin-bottom: 0;
 }
 
+.fondu-section {
+  opacity: 0;
+  transform: translateY(1.5rem);
+  transition:
+    opacity 700ms ease,
+    transform 700ms ease;
+}
+
+.fondu-section.fondu-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 footer {
   min-height: 100px;
   display: flex;
@@ -376,6 +389,14 @@ body.dark-mode .element-contact:hover {
     width: 400px;
     height: 400px;
     align-self: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fondu-section {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 

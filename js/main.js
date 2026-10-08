@@ -9,6 +9,7 @@ async function init() {
   setupMobileMenu();
   setupHomeLink();
   setupSoftwareCarousel();
+  setupSectionFadeIn();
 
   try {
     const projects = await loadProjects();
@@ -151,4 +152,39 @@ function setupSoftwareCarousel() {
   list.addEventListener('scroll', updateButtons);
   window.addEventListener('resize', updateButtons);
   updateButtons();
+}
+
+function setupSectionFadeIn() {
+  const sections = document.querySelectorAll('main > section:not(#accueil)');
+
+  if (!sections.length) {
+    return;
+  }
+
+  if (
+    !('IntersectionObserver' in window) ||
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  ) {
+    sections.forEach((section) => section.classList.add('fondu-visible'));
+    return;
+  }
+
+  const observer = new IntersectionObserver(
+    (entries, currentObserver) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        entry.target.classList.add('fondu-visible');
+        currentObserver.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.15 },
+  );
+
+  sections.forEach((section) => {
+    section.classList.add('fondu-section');
+    observer.observe(section);
+  });
 }
