@@ -970,3 +970,11 @@ Timonier https://youtu.be/H2ENSABz-aQ"
 **Ce que j'ai compris :** Il a ajouté une fonction javascript qui détecte le scroll et ajoute une classe "visible" aux sections lorsqu'elles entrent dans la vue. Ensuite, il a utilise la classe "visible" qui applique une animation de fondu (fade in) aux sections.
 
 //
+
+**Prompt :** "ajout du text alernatifs à toutes les images et vidéos qui n'ont pas de texte alternatifs"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a le alt du video showreel 2026
+
+**Ce que j'ai compris :** Il a simplement ajouté "de Nicolas Cruz".
