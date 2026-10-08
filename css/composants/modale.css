@@ -32,9 +32,17 @@
   right: 0.75rem;
   border: 0;
   background: transparent;
-  color: var(--text);
+  color: var(--red);
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.fermer-modale:hover {
+  color: var(--onyx);
+}
+
+body.dark-mode .fermer-modale:hover {
+  color: var(--mist);
 }
 
 #corps-modale {
