@@ -4,6 +4,20 @@ export function setupProjectModal(projects) {
   const modalBody = document.querySelector('#corps-modale');
   const closeButton = document.querySelector('#fermer-modale');
 
+  const getYoutubeEmbedUrl = (url) => {
+    try {
+      const parsedUrl = new URL(url);
+      const videoId =
+        parsedUrl.hostname === 'youtu.be'
+          ? parsedUrl.pathname.slice(1)
+          : parsedUrl.searchParams.get('v');
+
+      return videoId ? `https://www.youtube.com/embed/${videoId}` : url;
+    } catch {
+      return url;
+    }
+  };
+
   if (!grid || !modal || !modalBody || !closeButton) {
     return;
   }
@@ -15,24 +29,36 @@ export function setupProjectModal(projects) {
 
   const openModal = (project) => {
     const isRoutine = project.id === 'routine-orageuse';
-    const media = isRoutine ? [...(project.media || [])] : [];
+    const media = [...(project.media || [])];
 
-    if (isRoutine && project.youtube) {
-      media.push({ type: 'youtube', src: project.youtube });
-    }
+    const youtubeUrls = Array.isArray(project.youtube)
+      ? project.youtube
+      : project.youtube
+        ? [project.youtube]
+        : [];
+
+    youtubeUrls.forEach((youtubeUrl) => {
+      media.push({ type: 'youtube', src: getYoutubeEmbedUrl(youtubeUrl) });
+    });
 
     modalBody.innerHTML = `
 			<h2 id="titre-modale">${project.name}</h2>
       ${
-        isRoutine
+        project.tags?.length
           ? `
         <div class="etiquettes-modale">
           ${(project.tags || []).map((tag) => `<span class="etiquette">${tag}</span>`).join('')}
         </div>
+      `
+          : ''
+      }
+      ${
+        media.length > 0
+          ? `
         <div class="galerie-modale" aria-live="polite">
-          <button class="media-precedent" type="button" aria-label="Média précédent">&lt;</button>
+          ${isRoutine ? '<button class="media-precedent" type="button" aria-label="Média précédent">&lt;</button>' : ''}
           <div class="media-fenetre"></div>
-          <button class="media-suivant" type="button" aria-label="Média suivant">&gt;</button>
+          ${isRoutine ? '<button class="media-suivant" type="button" aria-label="Média suivant">&gt;</button>' : ''}
         </div>
       `
           : ''
@@ -45,7 +71,7 @@ export function setupProjectModal(projects) {
     document.body.classList.add('modale-active');
     closeButton.focus();
 
-    if (isRoutine && media.length > 0) {
+    if (media.length > 0) {
       let mediaIndex = 0;
       const mediaWindow = modalBody.querySelector('.media-fenetre');
       const previousButton = modalBody.querySelector('.media-precedent');
@@ -56,8 +82,8 @@ export function setupProjectModal(projects) {
         const currentMedia = media[mediaIndex];
         mediaWindow.innerHTML =
           currentMedia.type === 'youtube'
-            ? `<iframe src="${currentMedia.src}" title="Vidéo YouTube de Routine orageuse" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
-            : `<img src="${currentMedia}" alt="Média du projet Routine orageuse" />`;
+            ? `<iframe src="${currentMedia.src}" title="Vidéo YouTube de ${project.name}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+            : `<img src="${currentMedia}" alt="Média du projet ${project.name}" />`;
       };
 
       const showPrevious = () => {
@@ -71,26 +97,29 @@ export function setupProjectModal(projects) {
       };
 
       renderMedia();
-      previousButton.addEventListener('click', showPrevious);
-      nextButton.addEventListener('click', showNext);
-      mediaWindow.addEventListener(
-        'touchstart',
-        (event) => {
-          touchStartX = event.changedTouches[0].clientX;
-        },
-        { passive: true },
-      );
-      mediaWindow.addEventListener(
-        'touchend',
-        (event) => {
-          const distance = event.changedTouches[0].clientX - touchStartX;
 
-          if (Math.abs(distance) > 50) {
-            distance > 0 ? showPrevious() : showNext();
-          }
-        },
-        { passive: true },
-      );
+      if (isRoutine) {
+        previousButton.addEventListener('click', showPrevious);
+        nextButton.addEventListener('click', showNext);
+        mediaWindow.addEventListener(
+          'touchstart',
+          (event) => {
+            touchStartX = event.changedTouches[0].clientX;
+          },
+          { passive: true },
+        );
+        mediaWindow.addEventListener(
+          'touchend',
+          (event) => {
+            const distance = event.changedTouches[0].clientX - touchStartX;
+
+            if (Math.abs(distance) > 50) {
+              distance > 0 ? showPrevious() : showNext();
+            }
+          },
+          { passive: true },
+        );
+      }
     }
   };
 

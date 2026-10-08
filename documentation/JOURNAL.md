@@ -777,7 +777,7 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 //
 
-**Prompt :** "Maintenant que la modale est faite, il n'est plus nécessaire d'afficher le contenu du .json dans le html. La modale le fera à sa place. Alors, utlise cette image pour lieu donner cette nouvelle apparence à chacun des projets."
+**Prompt :** "Maintenant que la modale est faite, il n'est plus nécessaire d'afficher le contenu du .json dans le html. La modale le fera à sa place. Alors, utlise cette image pour lieu donner cette nouvelle apparence à chacun des projets. (ajout d'une image qui montre le design des cartes de projet)"
 
 **Outil :** Copilot
 
@@ -861,7 +861,7 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 //
 
-**Prompt :** "add the missing ettiquettes inside each modal with the same style as the ettiquettes in the section À propos. Also, add a window where I can view pictures and the embed video from youtube. Make it in a way I can swipe to the next media. ONLY IN THE Routine orageuse project"
+**Prompt :** "add the missing ettiquettes inside each modal with the same style as the ettiquettes in the section À propos. Also, add a window where I can view pictures and the embed video from youtube. Make it in a way I can swipe to the next media. ONLY IN THE Routine orageuse project" (+ajout d'une image qui montre le design de la modale du projet "Routine orageuse")
 
 **Outil :** Copilot
 
@@ -890,3 +890,41 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 **Ce que j'ai compris :** L'IA a ajouté une fonction "setupHomeLink" dans main.js qui permet de faire défiler la page vers le haut complètement lorsque l'utilisateur clique sur le lien "Accueil" dans la navigation.
 
 //
+
+**Prompt :** "add these embed youtube videos inside their respective pop-up modale Routine orageuse MONTAGE https://youtu.be/hhgqMCk8Mm4
+
+Routine orageuse LIVE https://youtu.be/ix2cnZLUgFw
+
+Routine orageuse BTS https://youtu.be/aF6z3lDwsw4
+
+Errer san but... https://youtu.be/wkKrSQLxTBs
+
+La pilule https://youtu.be/BvMjo1up8Kg
+
+Timonier https://youtu.be/H2ENSABz-aQ"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté les vidéos YouTube intégrées dans les modales respectives de chaque projet.
+
+**Ce que j'ai compris :** L'IA a ajouté les liens des vidéos YouTube dans le fichier projets.json. Ensuite, il a modifié le code javascript de la modale pour afficher la ou les vidéos répertoriées dans le fichier projets.json lorsque l'utilisateur clique sur les cartes de projet.
+
+//
+
+**Prompt :** "enlève les flèches de déplacement pour toutes les modales sauf dans le projet "Routine orageuse""
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a enlevé les flèches de déplacement pour toutes les modales sauf dans le projet "Routine orageuse".
+
+**Ce que j'ai compris :** Modifie le code javascript pour vérifier si le projet est Routine orageuse. Si c'est vrai, il affichera les flèches sinon il ne les affichera pas.
+
+//
+
+**Prompt :** "ajoute des ettiquettes tel que celles utilisées dans la modale Routine orageuse. Ajoute-en ou retire-en si nécessaire. Regarde les images références."(+ajout d'une image qui montre le design des étiquettes dans la modale 2, 3 et 4)
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté les étiquettes dans les modales des projets 2, 3 et 4 en suivant le design de référence fourni.
+
+**Ce que j'ai compris :** L'AI ajouté les étiquettes dans les modales des projets 2, 3 et 4 au endroit requis du design de référence fourni avec le style css réservé aux étiquettes. Il a ajouté des tags en json et il a modifié le code javascript pour afficher les étiquettes dans les modales des projets 2, 3 et 4.
