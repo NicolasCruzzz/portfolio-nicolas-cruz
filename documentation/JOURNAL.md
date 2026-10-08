@@ -950,3 +950,13 @@ Timonier https://youtu.be/H2ENSABz-aQ"
 **Ce que j'ai compris :** Il a modifié le CSS pour que la liste de logiciels prene toute la largeur disponible avec max-width: 100%.
 
 //
+
+**Prompt :** "déplace le courriel element-contact sur une autre rangée en-dessous du github et et du linkin in dans toutes les tailles d'écran utilisée dans mon code(base, 900px, 600px)"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a corrigé le débordement causé par le courriel dans la section contact.
+
+**Ce que j'ai compris :** Il a simplement modifié le nom de la classe du courriel afin de pouvoir le cibler dans le CSS et lui donner un style qui le place sur une nouvelle ligne qui prend 100% de la largeur du conteneur.
+
+//
