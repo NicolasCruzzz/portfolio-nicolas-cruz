@@ -35,11 +35,15 @@ body {
 /* Style appliqué à tous les éléments du body */
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: 'BloggerSans', sans-serif;
   text-align: center;
 }
+
+h3 {
+  font-family: 'BloggerSans', sans-serif;
+}
+
 /* Style appliqué à plusieurs balises de titrage*/
 
 .etiquette {

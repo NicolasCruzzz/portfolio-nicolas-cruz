@@ -801,7 +801,7 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 4. <em>Quelle est ma prochaine étape concrète?</em>
 
-   Complété le contenu manquant dans les modales pop-up, faire les animations du one-pager et faire un polissage final. 
+   Complété le contenu manquant dans les modales pop-up, faire les animations du one-pager et faire un polissage final.
 
 5. <em>Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?</em>
 
@@ -857,8 +857,36 @@ ${project.url ? `<a class="project-card__link" href="${project.url}" target="_bl
 
 **Résultat :** L'IA a adapté les couleurs du survol du mode clair.
 
-
 **Ce que j'ai compris :** Les couleurs du survol ont été ajouté en mode clair.
 
 //
 
+**Prompt :** "add the missing ettiquettes inside each modal with the same style as the ettiquettes in the section À propos. Also, add a window where I can view pictures and the embed video from youtube. Make it in a way I can swipe to the next media. ONLY IN THE Routine orageuse project"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajouté les étiquettes et les médias dans la modale du projet "Routine orageuse".
+
+**Ce que j'ai compris :** Le ficher json contient maintenant les étiquettes et les médias pour le projet "Routine orageuse". L'IA a ajouté un carrousel pour afficher les médias (images et vidéos) dans la modale du projet. Ce carrousel permet de passer d'un média à l'autre en glissant ou en cliquant sur les flèches en javascript.
+
+//
+
+**Prompt :** "Fix the size and the alignment of the youtbe embeded video inside "bloc-showreel""
+
+**Outil :** Copilot
+
+**Résultat :** L'IA a ajusté la taille et l'alignement de la vidéo intégrée de YouTube dans le bloc-showreel.
+
+**Ce que j'ai compris :** Il a modifié le style dans layout.css pour que la vidéo intégrée de YouTube dans le bloc-showreel soit correctement dimensionnée et alignée au centre du conteneur, en utilisant des propriétés CSS telles que width, height et margin pour assurer un rendu optimal sur différents appareils et tailles d'écran.
+
+//
+
+**Prompt :** "when I click this link "<li><a href="#accueil">Accueil</a></li>" make sure it scroll to the top of the page"
+
+**Outil :** Copilot
+
+**Résultat :** L'IA permet de défiller jusqu'en haut de la page lorsque l'utilisateur clique sur le lien "Accueil" dans la navigation.
+
+**Ce que j'ai compris :** L'IA a ajouté une fonction "setupHomeLink" dans main.js qui permet de faire défiler la page vers le haut complètement lorsque l'utilisateur clique sur le lien "Accueil" dans la navigation.
+
+//

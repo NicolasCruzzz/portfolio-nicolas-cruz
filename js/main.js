@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', init);
 async function init() {
   setupDarkMode();
   setupMobileMenu();
+  setupHomeLink();
   setupSoftwareCarousel();
 
   try {
@@ -31,6 +32,16 @@ async function init() {
   } catch (error) {
     console.error(error);
   }
+}
+
+/* Code qui permet de scroll jusqu'au top de la page en cliquant sur le lien "Accueil" */
+function setupHomeLink() {
+  const homeLink = document.querySelector('a[href="#accueil"]');
+
+  homeLink?.addEventListener('click', (event) => {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 }
 
 function setupMobileMenu() {

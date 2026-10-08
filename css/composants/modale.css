@@ -49,6 +49,52 @@ body.dark-mode .fermer-modale:hover {
   padding-top: 1rem;
 }
 
+.etiquettes-modale {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.galerie-modale {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.media-fenetre {
+  flex: 1 1 auto;
+  min-width: 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 3px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  touch-action: pan-y;
+}
+
+.media-fenetre img,
+.media-fenetre iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.media-precedent,
+.media-suivant {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--red);
+  color: var(--mist);
+  cursor: pointer;
+}
+
 #corps-modale a {
   display: block;
   margin-top: 1rem;
